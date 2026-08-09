@@ -1,0 +1,20 @@
+{
+ "hs_teams": 104,
+ "hs_players": 3488,
+ "hs_g3": 1113,
+ "hs_g3_pos": {
+  "P": 539,
+  "C": 91,
+  "IF": 237,
+  "OF": 246
+ },
+ "univ_teams": 50,
+ "univ_players": 1481,
+ "univ_grade": {
+  "1": 701,
+  "2": 430,
+  "3": 188,
+  "4": 162
+ },
+ "src": "KBSA korea-baseball.com 2026 시즌 전수 조회 (2026-08-09)"
+}

@@ -1,0 +1,519 @@
+{
+ "teams": [
+  {
+   "id": "키움",
+   "name": "키움 히어로즈",
+   "pick_order": 1,
+   "rank2025": 10,
+   "d26_counts": {
+    "P": 8,
+    "C": 1,
+    "IF": 3,
+    "OF": 0
+   },
+   "tendency": {
+    "P": 0.687,
+    "C": 0.521,
+    "IF": 0.516,
+    "OF": 0.276
+   },
+   "need": {
+    "P": 0.62,
+    "C": 0.478,
+    "IF": 0.58,
+    "OF": 0.68
+   },
+   "weight": {
+    "P": 0.647,
+    "C": 0.495,
+    "IF": 0.554,
+    "OF": 0.518
+   },
+   "hs_pref": 0.85,
+   "risk": 0.75,
+   "bpa": 0.8,
+   "rationale": "정현우·박준현 등 투수 상위픽 축적 완료 → 야수 코어 확보가 다음 과제",
+   "roster": {
+    "registered": {
+     "P": 47,
+     "C": 8,
+     "IF": 22,
+     "OF": 12
+    },
+    "development": null,
+    "reg_completeness": "high",
+    "dev_completeness": "none",
+    "catchers_registered": 8,
+    "memo": "투수 47명으로 리그 최다 수준. 정현우·박준현·김윤하 등 최근 상위픽 투수 축적 완료. 외야 12명으로 얇음",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  },
+  {
+   "id": "두산",
+   "name": "두산 베어스",
+   "pick_order": 2,
+   "rank2025": 9,
+   "d26_counts": {
+    "P": 4,
+    "C": 0,
+    "IF": 4,
+    "OF": 3
+   },
+   "tendency": {
+    "P": 0.202,
+    "C": 0.388,
+    "IF": 0.698,
+    "OF": 0.712
+   },
+   "need": {
+    "P": 0.82,
+    "C": 0.763,
+    "IF": 0.48,
+    "OF": 0.53
+   },
+   "weight": {
+    "P": 0.573,
+    "C": 0.613,
+    "IF": 0.567,
+    "OF": 0.603
+   },
+   "hs_pref": 0.75,
+   "risk": 0.5,
+   "bpa": 0.55,
+   "rationale": "주전 포수 노쇠화·선발 뎁스 부족. 안방과 마운드 동시 리빌딩 필요",
+   "roster": {
+    "registered": {
+     "P": 45,
+     "C": 9,
+     "IF": 16,
+     "OF": 12
+    },
+    "development": null,
+    "reg_completeness": "mid",
+    "dev_completeness": "none",
+    "catchers_registered": 9,
+    "memo": "포수 9명이나 양의지 이후 주전 승계 미정. 내야 16명 중 다수가 30대",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  },
+  {
+   "id": "KIA",
+   "name": "KIA 타이거즈",
+   "pick_order": 3,
+   "rank2025": 8,
+   "d26_counts": {
+    "P": 4,
+    "C": 1,
+    "IF": 2,
+    "OF": 3
+   },
+   "tendency": {
+    "P": 0.26,
+    "C": 0.548,
+    "IF": 0.436,
+    "OF": 0.756
+   },
+   "need": {
+    "P": 0.87,
+    "C": 0.753,
+    "IF": 0.48,
+    "OF": 0.43
+   },
+   "weight": {
+    "P": 0.626,
+    "C": 0.671,
+    "IF": 0.462,
+    "OF": 0.56
+   },
+   "hs_pref": 0.8,
+   "risk": 0.55,
+   "bpa": 0.6,
+   "rationale": "선발진 노쇠화 및 포수 세대교체 지연",
+   "roster": {
+    "registered": null,
+    "development": null,
+    "reg_completeness": "low",
+    "dev_completeness": "none",
+    "catchers_registered": 3,
+    "memo": "페이지 파싱 불완전. 포수 3명(주효상·한준수·김태군) 확인 — 리그 최소 수준이며 김태군 노쇠",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  },
+  {
+   "id": "롯데",
+   "name": "롯데 자이언츠",
+   "pick_order": 4,
+   "rank2025": 7,
+   "d26_counts": {
+    "P": 6,
+    "C": 1,
+    "IF": 3,
+    "OF": 1
+   },
+   "tendency": {
+    "P": 0.493,
+    "C": 0.533,
+    "IF": 0.552,
+    "OF": 0.421
+   },
+   "need": {
+    "P": 0.67,
+    "C": 0.763,
+    "IF": 0.63,
+    "OF": 0.48
+   },
+   "weight": {
+    "P": 0.599,
+    "C": 0.671,
+    "IF": 0.599,
+    "OF": 0.456
+   },
+   "hs_pref": 0.8,
+   "risk": 0.6,
+   "bpa": 0.55,
+   "rationale": "고질적 포수 취약 + 내야 세대교체 미완",
+   "roster": {
+    "registered": {
+     "P": 27,
+     "C": 9,
+     "IF": 13,
+     "OF": 10
+    },
+    "development": null,
+    "reg_completeness": "mid",
+    "dev_completeness": "none",
+    "catchers_registered": 9,
+    "memo": "포수 9명이나 유강남 이후 손성빈·정보근 경쟁 미정착. 내야 13명으로 얇음",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  },
+  {
+   "id": "kt",
+   "name": "kt wiz",
+   "pick_order": 5,
+   "rank2025": 6,
+   "d26_counts": {
+    "P": 5,
+    "C": 1,
+    "IF": 3,
+    "OF": 1
+   },
+   "tendency": {
+    "P": 0.42,
+    "C": 0.548,
+    "IF": 0.596,
+    "OF": 0.436
+   },
+   "need": {
+    "P": 0.67,
+    "C": 0.662,
+    "IF": 0.48,
+    "OF": 0.68
+   },
+   "weight": {
+    "P": 0.57,
+    "C": 0.616,
+    "IF": 0.526,
+    "OF": 0.582
+   },
+   "hs_pref": 0.75,
+   "risk": 0.45,
+   "bpa": 0.6,
+   "rationale": "베테랑 포수 이후 대안 부재, 외야 자원 고령화",
+   "roster": {
+    "registered": {
+     "P": 41,
+     "C": 9,
+     "IF": 17,
+     "OF": 18
+    },
+    "development": null,
+    "reg_completeness": "high",
+    "dev_completeness": "none",
+    "catchers_registered": 9,
+    "memo": "외야 18명으로 최다. 포수는 장성우 의존도 높음",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  },
+  {
+   "id": "NC",
+   "name": "NC 다이노스",
+   "pick_order": 6,
+   "rank2025": 5,
+   "d26_counts": {
+    "P": 6,
+    "C": 1,
+    "IF": 4,
+    "OF": 2
+   },
+   "tendency": {
+    "P": 0.358,
+    "C": 0.511,
+    "IF": 0.608,
+    "OF": 0.522
+   },
+   "need": {
+    "P": 0.92,
+    "C": 0.428,
+    "IF": 0.48,
+    "OF": 0.53
+   },
+   "weight": {
+    "P": 0.695,
+    "C": 0.461,
+    "IF": 0.531,
+    "OF": 0.527
+   },
+   "hs_pref": 0.75,
+   "risk": 0.6,
+   "bpa": 0.55,
+   "rationale": "마운드 뎁스 급감. 3R 지명권 2장 보유로 투수 물량 확보 가능",
+   "roster": {
+    "registered": {
+     "P": 49,
+     "C": 8,
+     "IF": 24,
+     "OF": 14
+    },
+    "development": null,
+    "reg_completeness": "high",
+    "dev_completeness": "none",
+    "catchers_registered": 8,
+    "memo": "명단 규모는 크나 마운드 실질 뎁스 저하. 김형준 외 포수 자원 부족",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  },
+  {
+   "id": "삼성",
+   "name": "삼성 라이온즈",
+   "pick_order": 7,
+   "rank2025": 4,
+   "d26_counts": {
+    "P": 9,
+    "C": 1,
+    "IF": 1,
+    "OF": 0
+   },
+   "tendency": {
+    "P": 0.929,
+    "C": 0.533,
+    "IF": 0.261,
+    "OF": 0.276
+   },
+   "need": {
+    "P": 0.67,
+    "C": 0.492,
+    "IF": 0.73,
+    "OF": 0.58
+   },
+   "weight": {
+    "P": 0.774,
+    "C": 0.508,
+    "IF": 0.542,
+    "OF": 0.458
+   },
+   "hs_pref": 0.85,
+   "risk": 0.55,
+   "bpa": 0.5,
+   "rationale": "최근 드래프트 투수 극단 편중 → 야수 팜 고갈, 내야 보강 시급",
+   "roster": {
+    "registered": {
+     "P": 32,
+     "C": 7,
+     "IF": 8,
+     "OF": null
+    },
+    "development": {
+     "P": 23,
+     "C": 4,
+     "IF": null,
+     "OF": null
+    },
+    "reg_completeness": "low",
+    "dev_completeness": "mid",
+    "catchers_registered": 7,
+    "memo": "육성 투수 23명 vs 육성 포수 4명 — 최근 드래프트 투수 편중이 팜 구성에 그대로 반영. 야수 파이프라인 빈약",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  },
+  {
+   "id": "SSG",
+   "name": "SSG 랜더스",
+   "pick_order": 8,
+   "rank2025": 3,
+   "d26_counts": {
+    "P": 6,
+    "C": 0,
+    "IF": 1,
+    "OF": 3
+   },
+   "tendency": {
+    "P": 0.58,
+    "C": 0.388,
+    "IF": 0.276,
+    "OF": 0.756
+   },
+   "need": {
+    "P": 0.608,
+    "C": 0.542,
+    "IF": 0.812,
+    "OF": 0.69
+   },
+   "weight": {
+    "P": 0.597,
+    "C": 0.48,
+    "IF": 0.598,
+    "OF": 0.716
+   },
+   "hs_pref": 0.8,
+   "risk": 0.5,
+   "bpa": 0.6,
+   "rationale": "코너 내야/외야 핵심 타자 노쇠화가 가장 뚜렷",
+   "roster": {
+    "registered": {
+     "P": 26,
+     "C": 5,
+     "IF": 14,
+     "OF": 16
+    },
+    "development": {
+     "P": 19,
+     "C": 2,
+     "IF": 5,
+     "OF": 5
+    },
+    "reg_completeness": "high",
+    "dev_completeness": "high",
+    "catchers_registered": 5,
+    "memo": "등록 포수 5명·육성 포수 2명으로 안방 자원 최소. 최정·한유섬 등 코너 야수 노쇠화",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  },
+  {
+   "id": "한화",
+   "name": "한화 이글스",
+   "pick_order": 9,
+   "rank2025": 2,
+   "d26_counts": {
+    "P": 3,
+    "C": 0,
+    "IF": 4,
+    "OF": 3
+   },
+   "tendency": {
+    "P": 0.1,
+    "C": 0.388,
+    "IF": 0.756,
+    "OF": 0.756
+   },
+   "need": {
+    "P": 0.462,
+    "C": 0.759,
+    "IF": 0.751,
+    "OF": 0.596
+   },
+   "weight": {
+    "P": 0.317,
+    "C": 0.611,
+    "IF": 0.753,
+    "OF": 0.66
+   },
+   "hs_pref": 0.8,
+   "risk": 0.65,
+   "bpa": 0.55,
+   "rationale": "리그 최상급 영건 선발진 보유 → 야수 쪽으로 무게중심 이동",
+   "roster": {
+    "registered": {
+     "P": 15,
+     "C": 4,
+     "IF": 13,
+     "OF": 11
+    },
+    "development": {
+     "P": 20,
+     "C": 2,
+     "IF": 3,
+     "OF": 8
+    },
+    "reg_completeness": "low",
+    "dev_completeness": "high",
+    "catchers_registered": 4,
+    "memo": "등록 포수 4명·육성 포수 2명 — 리그 최저 수준. 육성 내야 3명으로 내야 파이프라인도 고갈. 반면 육성 투수 20명 + 문동주·황준서·김서현 등 1군 영건 선발 보유",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  },
+  {
+   "id": "LG",
+   "name": "LG 트윈스",
+   "pick_order": 10,
+   "rank2025": 1,
+   "d26_counts": {
+    "P": 6,
+    "C": 1,
+    "IF": 3,
+    "OF": 1
+   },
+   "tendency": {
+    "P": 0.493,
+    "C": 0.533,
+    "IF": 0.552,
+    "OF": 0.421
+   },
+   "need": {
+    "P": 0.677,
+    "C": 0.635,
+    "IF": 0.521,
+    "OF": 0.586
+   },
+   "weight": {
+    "P": 0.603,
+    "C": 0.594,
+    "IF": 0.533,
+    "OF": 0.52
+   },
+   "hs_pref": 0.75,
+   "risk": 0.5,
+   "bpa": 0.7,
+   "rationale": "전 포지션 균형. 마지막 순번이라 BPA 성향 강함",
+   "roster": {
+    "registered": {
+     "P": 13,
+     "C": 4,
+     "IF": 8,
+     "OF": 7
+    },
+    "development": {
+     "P": 22,
+     "C": 4,
+     "IF": 9,
+     "OF": 3
+    },
+    "reg_completeness": "low",
+    "dev_completeness": "high",
+    "catchers_registered": 4,
+    "memo": "등록 포수 4명(박동원 의존). 육성 외야 3명으로 외야 파이프라인 얇음",
+    "source": "나무위키 <구단명>/선수단 (2026-08 기준)"
+   }
+  }
+ ],
+ "pick_trades": [
+  {
+   "round": 3,
+   "slot": 7,
+   "from": "삼성",
+   "to": "NC",
+   "note": "2025-11-25 박세혁 ↔ 2027 3R 지명권 트레이드 (3R 7번 = 전체 27번). ※ 입력값의 '전체 37번'은 4R 7번에 해당하므로 3R 기준인 27번으로 반영"
+  }
+ ],
+ "rules": {
+  "rounds": 11,
+  "teams": 10,
+  "format": "Z-shape (매 라운드 1→10 동일 순서)",
+  "college_grad_mandatory": 1,
+  "college_grad_note": "2019년 신설. 대졸(졸업예정) 최소 1명 지명 의무. 대학 얼리 신청자는 카운트되지 않음. 위반 시 제재금 + 익년도 1R 지명권 박탈",
+  "early_draft": "3·4년제 대학 2학년 수료자 대상. 고졸 지명 거부 후 대학 진학자는 대상 아님",
+  "rights_validity": "지명권 효력 2년",
+  "draft_date": "2026-09-21 (2027 신인 드래프트)"
+ },
+ "roster_note": "등록선수 총원은 위키 파싱 편차로 팀 간 절대 비교에 부적합. need 보정에는 ①등록 포수 인원(누락 가능성 낮음) ②육성선수 포지션 분포(추출 온전 팀 한정)만 사용"
+}

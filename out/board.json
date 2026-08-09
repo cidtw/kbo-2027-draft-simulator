@@ -1,0 +1,10688 @@
+[
+ {
+  "id": "P001",
+  "name": "하현승",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "부산고",
+  "type": "HS",
+  "talent": 95.0,
+  "conf": "high",
+  "avg": 1.1,
+  "best": 1,
+  "picked_rate": 100.0,
+  "r1_rate": 100.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 88.6
+   },
+   {
+    "team": "두산",
+    "pct": 11.2
+   }
+  ],
+  "rank": 1
+ },
+ {
+  "id": "P082",
+  "name": "이호민",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "경남고",
+  "type": "HS",
+  "talent": 92.2,
+  "conf": "high",
+  "avg": 2.4,
+  "best": 1,
+  "picked_rate": 100.0,
+  "r1_rate": 100.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 62.5
+   },
+   {
+    "team": "KIA",
+    "pct": 17.0
+   }
+  ],
+  "rank": 2
+ },
+ {
+  "id": "P002",
+  "name": "김지우",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울고",
+  "type": "HS",
+  "talent": 89.4,
+  "conf": "high",
+  "avg": 3.9,
+  "best": 1,
+  "picked_rate": 100.0,
+  "r1_rate": 100.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 29.2
+   },
+   {
+    "team": "롯데",
+    "pct": 22.8
+   }
+  ],
+  "rank": 3
+ },
+ {
+  "id": "P003",
+  "name": "윤예성",
+  "pos": "투수",
+  "tb": "우투좌타",
+  "school": "인창고",
+  "type": "HS",
+  "talent": 89.4,
+  "conf": "high",
+  "avg": 4.2,
+  "best": 1,
+  "picked_rate": 100.0,
+  "r1_rate": 100.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 26.4
+   },
+   {
+    "team": "롯데",
+    "pct": 24.2
+   }
+  ],
+  "rank": 4
+ },
+ {
+  "id": "P084",
+  "name": "설재민",
+  "pos": "포수",
+  "tb": "-",
+  "school": "덕수고",
+  "type": "HS",
+  "talent": 88.1,
+  "conf": "high",
+  "avg": 5.3,
+  "best": 2,
+  "picked_rate": 100.0,
+  "r1_rate": 99.9,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 21.1
+   },
+   {
+    "team": "롯데",
+    "pct": 19.9
+   }
+  ],
+  "rank": 5
+ },
+ {
+  "id": "P004",
+  "name": "박근서",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "서울디자인고",
+  "type": "HS",
+  "talent": 87.5,
+  "conf": "high",
+  "avg": 5.9,
+  "best": 2,
+  "picked_rate": 100.0,
+  "r1_rate": 99.9,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 35.1
+   },
+   {
+    "team": "삼성",
+    "pct": 22.9
+   }
+  ],
+  "rank": 6
+ },
+ {
+  "id": "P083",
+  "name": "원지우",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "강릉고",
+  "type": "HS",
+  "talent": 86.7,
+  "conf": "high",
+  "avg": 6.5,
+  "best": 2,
+  "picked_rate": 100.0,
+  "r1_rate": 97.5,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 20.0
+   },
+   {
+    "team": "SSG",
+    "pct": 17.9
+   }
+  ],
+  "rank": 7
+ },
+ {
+  "id": "P085",
+  "name": "박보승",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "경남고",
+  "type": "HS",
+  "talent": 83.0,
+  "conf": "mid",
+  "avg": 9.6,
+  "best": 1,
+  "picked_rate": 100.0,
+  "r1_rate": 65.8,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 23.1
+   },
+   {
+    "team": "한화",
+    "pct": 19.9
+   }
+  ],
+  "rank": 8
+ },
+ {
+  "id": "P007",
+  "name": "서원준",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "충암고",
+  "type": "HS",
+  "talent": 83.4,
+  "conf": "high",
+  "avg": 10.0,
+  "best": 5,
+  "picked_rate": 100.0,
+  "r1_rate": 60.9,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 23.0
+   },
+   {
+    "team": "삼성",
+    "pct": 14.6
+   }
+  ],
+  "rank": 9
+ },
+ {
+  "id": "P086",
+  "name": "우주로",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "대전고",
+  "type": "HS",
+  "talent": 82,
+  "conf": "mid",
+  "avg": 11.0,
+  "best": 4,
+  "picked_rate": 100.0,
+  "r1_rate": 49.6,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 24.0
+   },
+   {
+    "team": "키움",
+    "pct": 15.1
+   }
+  ],
+  "rank": 10
+ },
+ {
+  "id": "P087",
+  "name": "강인규",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "청주고",
+  "type": "HS",
+  "talent": 81,
+  "conf": "mid",
+  "avg": 12.4,
+  "best": 3,
+  "picked_rate": 100.0,
+  "r1_rate": 36.4,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 21.2
+   },
+   {
+    "team": "롯데",
+    "pct": 11.5
+   }
+  ],
+  "rank": 11
+ },
+ {
+  "id": "P005",
+  "name": "곽도현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "부산공고",
+  "type": "HS",
+  "talent": 80.3,
+  "conf": "mid",
+  "avg": 14.1,
+  "best": 5,
+  "picked_rate": 100.0,
+  "r1_rate": 20.6,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 14.4
+   },
+   {
+    "team": "키움",
+    "pct": 11.5
+   }
+  ],
+  "rank": 12
+ },
+ {
+  "id": "P088",
+  "name": "남현우",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "서울컨벤션고",
+  "type": "HS",
+  "talent": 80,
+  "conf": "mid",
+  "avg": 14.5,
+  "best": 4,
+  "picked_rate": 100.0,
+  "r1_rate": 18.2,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 18.4
+   },
+   {
+    "team": "키움",
+    "pct": 11.5
+   }
+  ],
+  "rank": 13
+ },
+ {
+  "id": "P141",
+  "name": "곽병진",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 85,
+  "conf": "mid",
+  "avg": 16.2,
+  "best": 6,
+  "picked_rate": 100.0,
+  "r1_rate": 7.2,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 15.6
+   },
+   {
+    "team": "kt",
+    "pct": 15.0
+   }
+  ],
+  "rank": 14
+ },
+ {
+  "id": "P006",
+  "name": "김민훈",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "광주진흥고",
+  "type": "HS",
+  "talent": 79.3,
+  "conf": "mid",
+  "avg": 16.5,
+  "best": 5,
+  "picked_rate": 100.0,
+  "r1_rate": 9.8,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 11.9
+   },
+   {
+    "team": "NC",
+    "pct": 11.8
+   }
+  ],
+  "rank": 15
+ },
+ {
+  "id": "P089",
+  "name": "유제민",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "휘문고",
+  "type": "HS",
+  "talent": 79,
+  "conf": "mid",
+  "avg": 16.5,
+  "best": 2,
+  "picked_rate": 100.0,
+  "r1_rate": 6.6,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 16.8
+   },
+   {
+    "team": "두산",
+    "pct": 14.9
+   }
+  ],
+  "rank": 16
+ },
+ {
+  "id": "P011",
+  "name": "김지율",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "충암고",
+  "type": "HS",
+  "talent": 79.6,
+  "conf": "high",
+  "avg": 16.7,
+  "best": 5,
+  "picked_rate": 100.0,
+  "r1_rate": 6.1,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 13.0
+   },
+   {
+    "team": "SSG",
+    "pct": 12.0
+   }
+  ],
+  "rank": 17
+ },
+ {
+  "id": "P013",
+  "name": "민주홍",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "설악고",
+  "type": "HS",
+  "talent": 79.4,
+  "conf": "high",
+  "avg": 17.3,
+  "best": 7,
+  "picked_rate": 100.0,
+  "r1_rate": 5.1,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 14.8
+   },
+   {
+    "team": "NC",
+    "pct": 12.1
+   }
+  ],
+  "rank": 18
+ },
+ {
+  "id": "P090",
+  "name": "김선빈",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "광주제일고",
+  "type": "HS",
+  "talent": 78,
+  "conf": "mid",
+  "avg": 18.2,
+  "best": 5,
+  "picked_rate": 100.0,
+  "r1_rate": 4.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 15.8
+   },
+   {
+    "team": "두산",
+    "pct": 15.5
+   }
+  ],
+  "rank": 19
+ },
+ {
+  "id": "P009",
+  "name": "이윤성",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "마산고",
+  "type": "HS",
+  "talent": 77.5,
+  "conf": "mid",
+  "avg": 20.2,
+  "best": 6,
+  "picked_rate": 100.0,
+  "r1_rate": 3.1,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 14.2
+   },
+   {
+    "team": "두산",
+    "pct": 12.6
+   }
+  ],
+  "rank": 20
+ },
+ {
+  "id": "P142",
+  "name": "박서진",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 82,
+  "conf": "mid",
+  "avg": 22.1,
+  "best": 7,
+  "picked_rate": 100.0,
+  "r1_rate": 0.6,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 19.5
+   },
+   {
+    "team": "LG",
+    "pct": 14.6
+   }
+  ],
+  "rank": 21
+ },
+ {
+  "id": "P010",
+  "name": "정일",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "대구고",
+  "type": "HS",
+  "talent": 76.6,
+  "conf": "mid",
+  "avg": 23.0,
+  "best": 7,
+  "picked_rate": 100.0,
+  "r1_rate": 1.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 14.8
+   },
+   {
+    "team": "롯데",
+    "pct": 12.0
+   }
+  ],
+  "rank": 22
+ },
+ {
+  "id": "P091",
+  "name": "강영은",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "개성고",
+  "type": "HS",
+  "talent": 75,
+  "conf": "mid",
+  "avg": 23.4,
+  "best": 8,
+  "picked_rate": 100.0,
+  "r1_rate": 1.4,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 18.8
+   },
+   {
+    "team": "NC",
+    "pct": 17.0
+   }
+  ],
+  "rank": 23
+ },
+ {
+  "id": "P096",
+  "name": "서정휘",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "세광고",
+  "type": "HS",
+  "talent": 76.0,
+  "conf": "high",
+  "avg": 24.1,
+  "best": 9,
+  "picked_rate": 100.0,
+  "r1_rate": 0.1,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 18.9
+   },
+   {
+    "team": "한화",
+    "pct": 17.8
+   }
+  ],
+  "rank": 24
+ },
+ {
+  "id": "P012",
+  "name": "정원",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "대구고",
+  "type": "HS",
+  "talent": 75,
+  "conf": "mid",
+  "avg": 25.4,
+  "best": 6,
+  "picked_rate": 100.0,
+  "r1_rate": 1.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 18.5
+   },
+   {
+    "team": "KIA",
+    "pct": 12.9
+   }
+  ],
+  "rank": 25
+ },
+ {
+  "id": "P204",
+  "name": "김재영",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경일대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 26.0,
+  "best": 26,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 26
+ },
+ {
+  "id": "P008",
+  "name": "이승원",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "유신고",
+  "type": "HS",
+  "talent": 72.0,
+  "conf": "mid",
+  "avg": 26.5,
+  "best": 2,
+  "picked_rate": 100.0,
+  "r1_rate": 4.4,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 16.4
+   },
+   {
+    "team": "키움",
+    "pct": 12.6
+   }
+  ],
+  "rank": 27
+ },
+ {
+  "id": "P177",
+  "name": "김동형",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "부산공고",
+  "type": "HS",
+  "talent": 74,
+  "conf": "mid",
+  "avg": 29.0,
+  "best": 10,
+  "picked_rate": 100.0,
+  "r1_rate": 0.1,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 16.2
+   },
+   {
+    "team": "SSG",
+    "pct": 12.4
+   }
+  ],
+  "rank": 28
+ },
+ {
+  "id": "P014",
+  "name": "김경록",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "마산고",
+  "type": "HS",
+  "talent": 73.6,
+  "conf": "mid",
+  "avg": 32.3,
+  "best": 10,
+  "picked_rate": 100.0,
+  "r1_rate": 0.2,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 13.5
+   },
+   {
+    "team": "키움",
+    "pct": 11.2
+   }
+  ],
+  "rank": 29
+ },
+ {
+  "id": "P179",
+  "name": "홍화철",
+  "pos": "투수",
+  "tb": "좌투",
+  "school": "서울고",
+  "type": "HS",
+  "talent": 73,
+  "conf": "mid",
+  "avg": 32.9,
+  "best": 12,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 13.6
+   },
+   {
+    "team": "SSG",
+    "pct": 11.8
+   }
+  ],
+  "rank": 30
+ },
+ {
+  "id": "P178",
+  "name": "김대승",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "덕수고",
+  "type": "HS",
+  "talent": 73,
+  "conf": "mid",
+  "avg": 33.2,
+  "best": 11,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 14.1
+   },
+   {
+    "team": "KIA",
+    "pct": 12.4
+   }
+  ],
+  "rank": 31
+ },
+ {
+  "id": "P017",
+  "name": "정다운",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "군산상일고",
+  "type": "HS",
+  "talent": 72.4,
+  "conf": "mid",
+  "avg": 34.8,
+  "best": 12,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 12.6
+   },
+   {
+    "team": "NC",
+    "pct": 12.4
+   }
+  ],
+  "rank": 32
+ },
+ {
+  "id": "P131",
+  "name": "장민제",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "충암고",
+  "type": "HS",
+  "talent": 70.0,
+  "conf": "mid",
+  "avg": 36.7,
+  "best": 19,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 15.2
+   },
+   {
+    "team": "한화",
+    "pct": 14.0
+   }
+  ],
+  "rank": 33
+ },
+ {
+  "id": "P018",
+  "name": "이준호",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "세광고",
+  "type": "HS",
+  "talent": 72.1,
+  "conf": "mid",
+  "avg": 37.0,
+  "best": 9,
+  "picked_rate": 100.0,
+  "r1_rate": 0.1,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 13.0
+   },
+   {
+    "team": "NC",
+    "pct": 12.6
+   }
+  ],
+  "rank": 34
+ },
+ {
+  "id": "P137",
+  "name": "최민영",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "야탑고",
+  "type": "HS",
+  "talent": 68.0,
+  "conf": "mid",
+  "avg": 43.0,
+  "best": 20,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 18.8
+   },
+   {
+    "team": "롯데",
+    "pct": 15.8
+   }
+  ],
+  "rank": 35
+ },
+ {
+  "id": "P143",
+  "name": "김태양",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "연세대",
+  "type": "COL",
+  "talent": 76,
+  "conf": "mid",
+  "avg": 44.8,
+  "best": 10,
+  "picked_rate": 100.0,
+  "r1_rate": 0.1,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 17.0
+   },
+   {
+    "team": "NC",
+    "pct": 14.4
+   }
+  ],
+  "rank": 36
+ },
+ {
+  "id": "P022",
+  "name": "용석민",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "경동고",
+  "type": "HS",
+  "talent": 70.9,
+  "conf": "mid",
+  "avg": 44.9,
+  "best": 13,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 13.5
+   },
+   {
+    "team": "키움",
+    "pct": 13.4
+   }
+  ],
+  "rank": 37
+ },
+ {
+  "id": "P224",
+  "name": "전승우",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "건국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 45.0,
+  "best": 45,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 38
+ },
+ {
+  "id": "P285",
+  "name": "김태우",
+  "pos": "투수",
+  "tb": "우투양타",
+  "school": "대덕대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 45.0,
+  "best": 45,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 39
+ },
+ {
+  "id": "P166",
+  "name": "최지만",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "인천고 - 前 MLB",
+  "type": "OVERSEAS",
+  "talent": 76,
+  "conf": "mid",
+  "avg": 46.0,
+  "best": 22,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 15.1
+   },
+   {
+    "team": "한화",
+    "pct": 13.5
+   }
+  ],
+  "rank": 40
+ },
+ {
+  "id": "P092",
+  "name": "김동건",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "경기상고",
+  "type": "HS",
+  "talent": 68.0,
+  "conf": "mid",
+  "avg": 46.8,
+  "best": 19,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 16.1
+   },
+   {
+    "team": "롯데",
+    "pct": 14.0
+   }
+  ],
+  "rank": 41
+ },
+ {
+  "id": "P138",
+  "name": "전율빈",
+  "pos": "포수",
+  "tb": "-",
+  "school": "광주동성고",
+  "type": "HS",
+  "talent": 67.0,
+  "conf": "mid",
+  "avg": 47.2,
+  "best": 20,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 16.1
+   },
+   {
+    "team": "롯데",
+    "pct": 13.5
+   }
+  ],
+  "rank": 42
+ },
+ {
+  "id": "P125",
+  "name": "박인효",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "경기상고",
+  "type": "HS",
+  "talent": 67.0,
+  "conf": "mid",
+  "avg": 47.2,
+  "best": 21,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 15.4
+   },
+   {
+    "team": "한화",
+    "pct": 14.5
+   }
+  ],
+  "rank": 43
+ },
+ {
+  "id": "P126",
+  "name": "이강석",
+  "pos": "외야수",
+  "tb": "-",
+  "school": "대전고",
+  "type": "HS",
+  "talent": 66.4,
+  "conf": "mid",
+  "avg": 49.9,
+  "best": 11,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 13.6
+   },
+   {
+    "team": "SSG",
+    "pct": 13.2
+   }
+  ],
+  "rank": 44
+ },
+ {
+  "id": "P140",
+  "name": "이한진",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "경북고",
+  "type": "HS",
+  "talent": 66.5,
+  "conf": "mid",
+  "avg": 50.2,
+  "best": 21,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 17.1
+   },
+   {
+    "team": "롯데",
+    "pct": 15.1
+   }
+  ],
+  "rank": 45
+ },
+ {
+  "id": "P093",
+  "name": "임성준",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "야로고",
+  "type": "HS",
+  "talent": 67.5,
+  "conf": "mid",
+  "avg": 50.3,
+  "best": 18,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 15.5
+   },
+   {
+    "team": "키움",
+    "pct": 11.5
+   }
+  ],
+  "rank": 46
+ },
+ {
+  "id": "P180",
+  "name": "이승민",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "부산고",
+  "type": "HS",
+  "talent": 70,
+  "conf": "mid",
+  "avg": 51.3,
+  "best": 10,
+  "picked_rate": 100.0,
+  "r1_rate": 0.1,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 14.6
+   },
+   {
+    "team": "키움",
+    "pct": 12.9
+   }
+  ],
+  "rank": 47
+ },
+ {
+  "id": "P015",
+  "name": "이후찬",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "광주제일고",
+  "type": "HS",
+  "talent": 70.0,
+  "conf": "mid",
+  "avg": 51.4,
+  "best": 13,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 14.8
+   },
+   {
+    "team": "NC",
+    "pct": 12.2
+   }
+  ],
+  "rank": 48
+ },
+ {
+  "id": "P129",
+  "name": "조희성",
+  "pos": "외야수",
+  "tb": "-",
+  "school": "유신고",
+  "type": "HS",
+  "talent": 64.6,
+  "conf": "mid",
+  "avg": 52.3,
+  "best": 22,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 13.6
+   },
+   {
+    "team": "KIA",
+    "pct": 12.6
+   }
+  ],
+  "rank": 49
+ },
+ {
+  "id": "P094",
+  "name": "최민상",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "마산용마고",
+  "type": "HS",
+  "talent": 67.1,
+  "conf": "mid",
+  "avg": 52.3,
+  "best": 24,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 13.8
+   },
+   {
+    "team": "NC",
+    "pct": 11.4
+   }
+  ],
+  "rank": 50
+ },
+ {
+  "id": "P105",
+  "name": "배정호",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "충암고",
+  "type": "HS",
+  "talent": 67.7,
+  "conf": "mid",
+  "avg": 52.4,
+  "best": 24,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 15.1
+   },
+   {
+    "team": "삼성",
+    "pct": 10.9
+   }
+  ],
+  "rank": 51
+ },
+ {
+  "id": "P139",
+  "name": "백준기",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "군산상일고",
+  "type": "HS",
+  "talent": 66.0,
+  "conf": "mid",
+  "avg": 53.0,
+  "best": 25,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 15.4
+   },
+   {
+    "team": "롯데",
+    "pct": 14.8
+   }
+  ],
+  "rank": 52
+ },
+ {
+  "id": "P027",
+  "name": "이건호",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "경남고",
+  "type": "HS",
+  "talent": 69.8,
+  "conf": "mid",
+  "avg": 53.7,
+  "best": 17,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 13.6
+   },
+   {
+    "team": "LG",
+    "pct": 12.5
+   }
+  ],
+  "rank": 53
+ },
+ {
+  "id": "P127",
+  "name": "황성현",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "덕수고",
+  "type": "HS",
+  "talent": 65.8,
+  "conf": "mid",
+  "avg": 53.8,
+  "best": 22,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 15.2
+   },
+   {
+    "team": "두산",
+    "pct": 12.8
+   }
+  ],
+  "rank": 54
+ },
+ {
+  "id": "P016",
+  "name": "방재상",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "군산상일고",
+  "type": "HS",
+  "talent": 69.7,
+  "conf": "mid",
+  "avg": 54.5,
+  "best": 12,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 14.6
+   },
+   {
+    "team": "키움",
+    "pct": 13.1
+   }
+  ],
+  "rank": 55
+ },
+ {
+  "id": "P095",
+  "name": "노민혁",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "마산용마고",
+  "type": "HS",
+  "talent": 66.7,
+  "conf": "mid",
+  "avg": 54.8,
+  "best": 19,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 13.6
+   },
+   {
+    "team": "롯데",
+    "pct": 11.8
+   }
+  ],
+  "rank": 56
+ },
+ {
+  "id": "P026",
+  "name": "차유주",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "경남고",
+  "type": "HS",
+  "talent": 69.7,
+  "conf": "mid",
+  "avg": 54.9,
+  "best": 14,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 13.8
+   },
+   {
+    "team": "키움",
+    "pct": 12.9
+   }
+  ],
+  "rank": 57
+ },
+ {
+  "id": "P130",
+  "name": "박지율",
+  "pos": "외야수",
+  "tb": "-",
+  "school": "유신고",
+  "type": "HS",
+  "talent": 64.0,
+  "conf": "mid",
+  "avg": 55.0,
+  "best": 21,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 14.9
+   },
+   {
+    "team": "SSG",
+    "pct": 12.8
+   }
+  ],
+  "rank": 58
+ },
+ {
+  "id": "P502",
+  "name": "변관호",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "중앙대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 57.0,
+  "best": 57,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.1
+   }
+  ],
+  "rank": 59
+ },
+ {
+  "id": "P328",
+  "name": "진석현",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 57.0,
+  "best": 57,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.1
+   }
+  ],
+  "rank": 60
+ },
+ {
+  "id": "P128",
+  "name": "박민준",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "야탑고",
+  "type": "HS",
+  "talent": 65.2,
+  "conf": "mid",
+  "avg": 57.6,
+  "best": 22,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 16.0
+   },
+   {
+    "team": "kt",
+    "pct": 12.9
+   }
+  ],
+  "rank": 61
+ },
+ {
+  "id": "P159",
+  "name": "강도현",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 69,
+  "conf": "low",
+  "avg": 60.9,
+  "best": 25,
+  "picked_rate": 99.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 16.1
+   },
+   {
+    "team": "SSG",
+    "pct": 12.8
+   }
+  ],
+  "rank": 62
+ },
+ {
+  "id": "P097",
+  "name": "안우석",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "경남고",
+  "type": "HS",
+  "talent": 65.8,
+  "conf": "mid",
+  "avg": 61.9,
+  "best": 25,
+  "picked_rate": 99.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 14.9
+   },
+   {
+    "team": "삼성",
+    "pct": 10.9
+   }
+  ],
+  "rank": 63
+ },
+ {
+  "id": "P181",
+  "name": "김영준",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "공주고",
+  "type": "HS",
+  "talent": 69,
+  "conf": "mid",
+  "avg": 61.9,
+  "best": 18,
+  "picked_rate": 99.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 15.6
+   },
+   {
+    "team": "키움",
+    "pct": 12.6
+   }
+  ],
+  "rank": 64
+ },
+ {
+  "id": "P156",
+  "name": "김동주",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "연세대",
+  "type": "COL",
+  "talent": 70,
+  "conf": "mid",
+  "avg": 62.9,
+  "best": 27,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 14.9
+   },
+   {
+    "team": "두산",
+    "pct": 14.0
+   }
+  ],
+  "rank": 65
+ },
+ {
+  "id": "P155",
+  "name": "김범서",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "계명대",
+  "type": "COL",
+  "talent": 70,
+  "conf": "mid",
+  "avg": 63.1,
+  "best": 30,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 16.1
+   },
+   {
+    "team": "두산",
+    "pct": 14.8
+   }
+  ],
+  "rank": 66
+ },
+ {
+  "id": "P019",
+  "name": "박준모",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "세광고",
+  "type": "HS",
+  "talent": 68.8,
+  "conf": "mid",
+  "avg": 63.5,
+  "best": 20,
+  "picked_rate": 98.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 14.2
+   },
+   {
+    "team": "삼성",
+    "pct": 13.1
+   }
+  ],
+  "rank": 67
+ },
+ {
+  "id": "P033",
+  "name": "이현민",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "대구고",
+  "type": "HS",
+  "talent": 68.9,
+  "conf": "mid",
+  "avg": 63.5,
+  "best": 22,
+  "picked_rate": 99.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 14.6
+   },
+   {
+    "team": "삼성",
+    "pct": 14.2
+   }
+  ],
+  "rank": 68
+ },
+ {
+  "id": "P132",
+  "name": "배종윤",
+  "pos": "외야수",
+  "tb": "-",
+  "school": "광주제일고",
+  "type": "HS",
+  "talent": 62.8,
+  "conf": "mid",
+  "avg": 64.0,
+  "best": 21,
+  "picked_rate": 99.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 12.6
+   },
+   {
+    "team": "SSG",
+    "pct": 11.6
+   }
+  ],
+  "rank": 69
+ },
+ {
+  "id": "P144",
+  "name": "이준혁",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "한양대",
+  "type": "COL",
+  "talent": 74,
+  "conf": "mid",
+  "avg": 64.5,
+  "best": 20,
+  "picked_rate": 99.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 13.1
+   },
+   {
+    "team": "NC",
+    "pct": 12.4
+   }
+  ],
+  "rank": 70
+ },
+ {
+  "id": "P098",
+  "name": "오라온",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "대전고",
+  "type": "HS",
+  "talent": 65.3,
+  "conf": "mid",
+  "avg": 65.5,
+  "best": 25,
+  "picked_rate": 99.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 13.1
+   },
+   {
+    "team": "한화",
+    "pct": 12.4
+   }
+  ],
+  "rank": 71
+ },
+ {
+  "id": "P102",
+  "name": "김선우",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "북일고",
+  "type": "HS",
+  "talent": 63.5,
+  "conf": "mid",
+  "avg": 66.2,
+  "best": 26,
+  "picked_rate": 98.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 14.1
+   },
+   {
+    "team": "SSG",
+    "pct": 11.6
+   }
+  ],
+  "rank": 72
+ },
+ {
+  "id": "P020",
+  "name": "김민준",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경동고",
+  "type": "HS",
+  "talent": 68.5,
+  "conf": "mid",
+  "avg": 66.9,
+  "best": 17,
+  "picked_rate": 97.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 14.1
+   },
+   {
+    "team": "키움",
+    "pct": 12.1
+   }
+  ],
+  "rank": 73
+ },
+ {
+  "id": "P021",
+  "name": "이주형",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경동고",
+  "type": "HS",
+  "talent": 68.2,
+  "conf": "mid",
+  "avg": 68.4,
+  "best": 20,
+  "picked_rate": 98.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 12.2
+   },
+   {
+    "team": "삼성",
+    "pct": 12.1
+   }
+  ],
+  "rank": 74
+ },
+ {
+  "id": "P099",
+  "name": "최수완",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "덕수고",
+  "type": "HS",
+  "talent": 64.8,
+  "conf": "mid",
+  "avg": 69.0,
+  "best": 25,
+  "picked_rate": 98.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 13.4
+   },
+   {
+    "team": "삼성",
+    "pct": 13.0
+   }
+  ],
+  "rank": 75
+ },
+ {
+  "id": "P158",
+  "name": "권희재",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 69,
+  "conf": "mid",
+  "avg": 69.2,
+  "best": 32,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 15.8
+   },
+   {
+    "team": "두산",
+    "pct": 15.0
+   }
+  ],
+  "rank": 76
+ },
+ {
+  "id": "P273",
+  "name": "안성민",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "구미대",
+  "type": "COL",
+  "talent": 55.5,
+  "conf": "low",
+  "avg": 71.0,
+  "best": 71,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 77
+ },
+ {
+  "id": "P145",
+  "name": "김범근",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "고려대",
+  "type": "COL",
+  "talent": 73,
+  "conf": "mid",
+  "avg": 71.9,
+  "best": 20,
+  "picked_rate": 98.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 13.6
+   },
+   {
+    "team": "kt",
+    "pct": 12.4
+   }
+  ],
+  "rank": 78
+ },
+ {
+  "id": "P100",
+  "name": "김주혁",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "야탑고",
+  "type": "HS",
+  "talent": 64.4,
+  "conf": "mid",
+  "avg": 72.1,
+  "best": 24,
+  "picked_rate": 97.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 13.4
+   },
+   {
+    "team": "롯데",
+    "pct": 10.8
+   }
+  ],
+  "rank": 79
+ },
+ {
+  "id": "P023",
+  "name": "박지후",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경남고",
+  "type": "HS",
+  "talent": 67.6,
+  "conf": "mid",
+  "avg": 72.6,
+  "best": 22,
+  "picked_rate": 95.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 13.5
+   },
+   {
+    "team": "삼성",
+    "pct": 11.9
+   }
+  ],
+  "rank": 80
+ },
+ {
+  "id": "P233",
+  "name": "김승환",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "계명대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 73.0,
+  "best": 71,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   },
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 81
+ },
+ {
+  "id": "P164",
+  "name": "현빈",
+  "pos": "외야수",
+  "tb": "-",
+  "school": "대덕대",
+  "type": "COL",
+  "talent": 67,
+  "conf": "low",
+  "avg": 73.2,
+  "best": 25,
+  "picked_rate": 98.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 13.6
+   },
+   {
+    "team": "NC",
+    "pct": 13.4
+   }
+  ],
+  "rank": 82
+ },
+ {
+  "id": "P157",
+  "name": "정민준",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "건국대",
+  "type": "COL",
+  "talent": 70,
+  "conf": "mid",
+  "avg": 74.2,
+  "best": 29,
+  "picked_rate": 99.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 11.5
+   },
+   {
+    "team": "삼성",
+    "pct": 11.2
+   }
+  ],
+  "rank": 83
+ },
+ {
+  "id": "P025",
+  "name": "문주혁",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경남고",
+  "type": "HS",
+  "talent": 67.6,
+  "conf": "mid",
+  "avg": 74.3,
+  "best": 23,
+  "picked_rate": 93.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 12.5
+   },
+   {
+    "team": "키움",
+    "pct": 12.4
+   }
+  ],
+  "rank": 84
+ },
+ {
+  "id": "P492",
+  "name": "이승환",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "장안대",
+  "type": "COL",
+  "talent": 55.5,
+  "conf": "low",
+  "avg": 74.5,
+  "best": 73,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   },
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 85
+ },
+ {
+  "id": "P101",
+  "name": "백시온",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "야탑고",
+  "type": "HS",
+  "talent": 64.0,
+  "conf": "mid",
+  "avg": 75.6,
+  "best": 27,
+  "picked_rate": 96.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 12.2
+   },
+   {
+    "team": "SSG",
+    "pct": 11.2
+   }
+  ],
+  "rank": 86
+ },
+ {
+  "id": "P160",
+  "name": "김우성",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 68,
+  "conf": "mid",
+  "avg": 76.2,
+  "best": 34,
+  "picked_rate": 100.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 14.5
+   },
+   {
+    "team": "두산",
+    "pct": 13.6
+   }
+  ],
+  "rank": 87
+ },
+ {
+  "id": "P162",
+  "name": "김경환",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "동국대",
+  "type": "COL",
+  "talent": 68,
+  "conf": "mid",
+  "avg": 76.3,
+  "best": 32,
+  "picked_rate": 99.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 14.5
+   },
+   {
+    "team": "kt",
+    "pct": 13.5
+   }
+  ],
+  "rank": 88
+ },
+ {
+  "id": "P024",
+  "name": "박주형",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경남고",
+  "type": "HS",
+  "talent": 67.3,
+  "conf": "mid",
+  "avg": 76.6,
+  "best": 23,
+  "picked_rate": 91.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 12.6
+   },
+   {
+    "team": "삼성",
+    "pct": 12.2
+   }
+  ],
+  "rank": 89
+ },
+ {
+  "id": "P225",
+  "name": "황우영",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "건국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 77.0,
+  "best": 77,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.1
+   }
+  ],
+  "rank": 90
+ },
+ {
+  "id": "P317",
+  "name": "문영훈",
+  "pos": "투수",
+  "tb": "우투좌타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 78.0,
+  "best": 78,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 91
+ },
+ {
+  "id": "P352",
+  "name": "우지원",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 78.2,
+  "best": 56,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.4
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 92
+ },
+ {
+  "id": "P134",
+  "name": "서성빈",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "부산고",
+  "type": "HS",
+  "talent": 61.6,
+  "conf": "mid",
+  "avg": 78.4,
+  "best": 19,
+  "picked_rate": 85.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 12.1
+   },
+   {
+    "team": "삼성",
+    "pct": 10.0
+   }
+  ],
+  "rank": 93
+ },
+ {
+  "id": "P461",
+  "name": "서정우",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 78.6,
+  "best": 60,
+  "picked_rate": 0.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.2
+   },
+   {
+    "team": "한화",
+    "pct": 0.2
+   }
+  ],
+  "rank": 94
+ },
+ {
+  "id": "P220",
+  "name": "황윤재",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "경민대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 79.0,
+  "best": 52,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.2
+   },
+   {
+    "team": "두산",
+    "pct": 0.2
+   }
+  ],
+  "rank": 95
+ },
+ {
+  "id": "P372",
+  "name": "최성원",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "사이버한국외대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 80.0,
+  "best": 80,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 96
+ },
+ {
+  "id": "P259",
+  "name": "신용우",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 80.0,
+  "best": 80,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 97
+ },
+ {
+  "id": "P313",
+  "name": "김창린",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 80.4,
+  "best": 58,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.2
+   },
+   {
+    "team": "SSG",
+    "pct": 0.2
+   }
+  ],
+  "rank": 98
+ },
+ {
+  "id": "P060",
+  "name": "김주완",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "장충고",
+  "type": "HS",
+  "talent": 56.5,
+  "conf": "mid",
+  "avg": 81.0,
+  "best": 81,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 99
+ },
+ {
+  "id": "P146",
+  "name": "정원진",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "고려대",
+  "type": "COL",
+  "talent": 72,
+  "conf": "mid",
+  "avg": 81.1,
+  "best": 28,
+  "picked_rate": 87.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 11.9
+   },
+   {
+    "team": "키움",
+    "pct": 10.0
+   }
+  ],
+  "rank": 100
+ },
+ {
+  "id": "P211",
+  "name": "김효석",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "경민대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 81.5,
+  "best": 55,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.2
+   },
+   {
+    "team": "kt",
+    "pct": 0.2
+   }
+  ],
+  "rank": 101
+ },
+ {
+  "id": "P163",
+  "name": "박도현",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "한양대",
+  "type": "COL",
+  "talent": 67,
+  "conf": "mid",
+  "avg": 81.8,
+  "best": 42,
+  "picked_rate": 99.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 14.2
+   },
+   {
+    "team": "롯데",
+    "pct": 14.0
+   }
+  ],
+  "rank": 102
+ },
+ {
+  "id": "P108",
+  "name": "이산",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "청원고",
+  "type": "HS",
+  "talent": 60.8,
+  "conf": "mid",
+  "avg": 81.8,
+  "best": 28,
+  "picked_rate": 76.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 9.8
+   },
+   {
+    "team": "SSG",
+    "pct": 9.5
+   }
+  ],
+  "rank": 103
+ },
+ {
+  "id": "P226",
+  "name": "김보원",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경성대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 82.5,
+  "best": 79,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.1
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 104
+ },
+ {
+  "id": "P287",
+  "name": "남지훈",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "대덕대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 83.0,
+  "best": 83,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 105
+ },
+ {
+  "id": "P499",
+  "name": "최현웅",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "전주기전대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 83.9,
+  "best": 34,
+  "picked_rate": 0.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.2
+   },
+   {
+    "team": "KIA",
+    "pct": 0.2
+   }
+  ],
+  "rank": 106
+ },
+ {
+  "id": "P391",
+  "name": "조효원",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 84.0,
+  "best": 56,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.2
+   },
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 107
+ },
+ {
+  "id": "P032",
+  "name": "마진혁",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "대구고",
+  "type": "HS",
+  "talent": 66.3,
+  "conf": "mid",
+  "avg": 84.2,
+  "best": 24,
+  "picked_rate": 79.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 12.6
+   },
+   {
+    "team": "LG",
+    "pct": 9.8
+   }
+  ],
+  "rank": 108
+ },
+ {
+  "id": "P028",
+  "name": "이윤상",
+  "pos": "투수",
+  "tb": "우투좌타",
+  "school": "마산용마고",
+  "type": "HS",
+  "talent": 66.1,
+  "conf": "mid",
+  "avg": 84.9,
+  "best": 27,
+  "picked_rate": 78.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 9.8
+   },
+   {
+    "team": "삼성",
+    "pct": 9.5
+   }
+  ],
+  "rank": 109
+ },
+ {
+  "id": "P257",
+  "name": "김승우",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 84.9,
+  "best": 73,
+  "picked_rate": 0.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.2
+   },
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 110
+ },
+ {
+  "id": "P445",
+  "name": "황재민",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 84.9,
+  "best": 71,
+  "picked_rate": 1.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.2
+   },
+   {
+    "team": "NC",
+    "pct": 0.2
+   }
+  ],
+  "rank": 111
+ },
+ {
+  "id": "P353",
+  "name": "유은종",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 85.2,
+  "best": 64,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.2
+   },
+   {
+    "team": "KIA",
+    "pct": 0.2
+   }
+  ],
+  "rank": 112
+ },
+ {
+  "id": "P236",
+  "name": "안유찬",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "계명대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 85.3,
+  "best": 76,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   },
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 113
+ },
+ {
+  "id": "P135",
+  "name": "박재휘",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "부산고",
+  "type": "HS",
+  "talent": 61.0,
+  "conf": "mid",
+  "avg": 85.5,
+  "best": 29,
+  "picked_rate": 90.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 12.5
+   },
+   {
+    "team": "KIA",
+    "pct": 11.6
+   }
+  ],
+  "rank": 114
+ },
+ {
+  "id": "P270",
+  "name": "고승현",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "구미대",
+  "type": "COL",
+  "talent": 55.5,
+  "conf": "low",
+  "avg": 85.9,
+  "best": 65,
+  "picked_rate": 1.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.2
+   },
+   {
+    "team": "키움",
+    "pct": 0.2
+   }
+  ],
+  "rank": 115
+ },
+ {
+  "id": "P428",
+  "name": "송현준",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "수성대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 86.0,
+  "best": 61,
+  "picked_rate": 1.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.2
+   },
+   {
+    "team": "kt",
+    "pct": 0.2
+   }
+  ],
+  "rank": 116
+ },
+ {
+  "id": "P189",
+  "name": "박지완",
+  "pos": "투수",
+  "tb": "우투좌타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 86.0,
+  "best": 86,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 117
+ },
+ {
+  "id": "P423",
+  "name": "조병수",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울문화예술대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 86.0,
+  "best": 86,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 118
+ },
+ {
+  "id": "P488",
+  "name": "안훈민",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "유원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 86.5,
+  "best": 77,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   },
+   {
+    "team": "삼성",
+    "pct": 0.1
+   }
+  ],
+  "rank": 119
+ },
+ {
+  "id": "P034",
+  "name": "양진후",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울컨벤션고",
+  "type": "HS",
+  "talent": 65.8,
+  "conf": "mid",
+  "avg": 86.7,
+  "best": 27,
+  "picked_rate": 73.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 10.4
+   },
+   {
+    "team": "LG",
+    "pct": 9.0
+   }
+  ],
+  "rank": 120
+ },
+ {
+  "id": "P485",
+  "name": "최진원",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "원광대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 86.7,
+  "best": 40,
+  "picked_rate": 4.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.8
+   },
+   {
+    "team": "LG",
+    "pct": 0.6
+   }
+  ],
+  "rank": 121
+ },
+ {
+  "id": "P161",
+  "name": "이중권",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "건국대",
+  "type": "COL",
+  "talent": 68,
+  "conf": "mid",
+  "avg": 86.8,
+  "best": 36,
+  "picked_rate": 77.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 10.4
+   },
+   {
+    "team": "kt",
+    "pct": 9.1
+   }
+  ],
+  "rank": 122
+ },
+ {
+  "id": "P404",
+  "name": "조준",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "성균관대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 86.8,
+  "best": 56,
+  "picked_rate": 3.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.8
+   },
+   {
+    "team": "NC",
+    "pct": 0.5
+   }
+  ],
+  "rank": 123
+ },
+ {
+  "id": "P336",
+  "name": "김재호",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동원대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 86.8,
+  "best": 51,
+  "picked_rate": 1.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.4
+   },
+   {
+    "team": "키움",
+    "pct": 0.4
+   }
+  ],
+  "rank": 124
+ },
+ {
+  "id": "P411",
+  "name": "박성우",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "송원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 87.4,
+  "best": 39,
+  "picked_rate": 4.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.8
+   },
+   {
+    "team": "LG",
+    "pct": 0.6
+   }
+  ],
+  "rank": 125
+ },
+ {
+  "id": "P031",
+  "name": "조용준",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "대구고",
+  "type": "HS",
+  "talent": 65.2,
+  "conf": "mid",
+  "avg": 87.5,
+  "best": 30,
+  "picked_rate": 62.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 9.4
+   },
+   {
+    "team": "삼성",
+    "pct": 9.0
+   }
+  ],
+  "rank": 126
+ },
+ {
+  "id": "P523",
+  "name": "이신혁",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 87.5,
+  "best": 46,
+  "picked_rate": 3.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.8
+   },
+   {
+    "team": "KIA",
+    "pct": 0.5
+   }
+  ],
+  "rank": 127
+ },
+ {
+  "id": "P030",
+  "name": "문성빈",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "마산용마고",
+  "type": "HS",
+  "talent": 65.5,
+  "conf": "mid",
+  "avg": 87.6,
+  "best": 26,
+  "picked_rate": 67.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 9.1
+   },
+   {
+    "team": "NC",
+    "pct": 8.5
+   }
+  ],
+  "rank": 128
+ },
+ {
+  "id": "P133",
+  "name": "김지혁",
+  "pos": "투수",
+  "tb": "-",
+  "school": "라온고",
+  "type": "HS",
+  "talent": 62.2,
+  "conf": "mid",
+  "avg": 87.8,
+  "best": 28,
+  "picked_rate": 37.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 5.2
+   },
+   {
+    "team": "삼성",
+    "pct": 5.0
+   }
+  ],
+  "rank": 129
+ },
+ {
+  "id": "P029",
+  "name": "신승환",
+  "pos": "투수",
+  "tb": "우투좌타",
+  "school": "마산용마고",
+  "type": "HS",
+  "talent": 65.8,
+  "conf": "mid",
+  "avg": 87.8,
+  "best": 23,
+  "picked_rate": 70.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 9.8
+   },
+   {
+    "team": "키움",
+    "pct": 8.4
+   }
+  ],
+  "rank": 130
+ },
+ {
+  "id": "P201",
+  "name": "김태희",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "경남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 87.8,
+  "best": 55,
+  "picked_rate": 2.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.4
+   },
+   {
+    "team": "LG",
+    "pct": 0.4
+   }
+  ],
+  "rank": 131
+ },
+ {
+  "id": "P304",
+  "name": "장한별",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동강대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 88.0,
+  "best": 70,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.2
+   },
+   {
+    "team": "롯데",
+    "pct": 0.1
+   }
+  ],
+  "rank": 132
+ },
+ {
+  "id": "P432",
+  "name": "현지훈",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "수성대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 88.0,
+  "best": 77,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.2
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 133
+ },
+ {
+  "id": "P294",
+  "name": "윤승민",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 88.3,
+  "best": 55,
+  "picked_rate": 3.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.8
+   },
+   {
+    "team": "kt",
+    "pct": 0.5
+   }
+  ],
+  "rank": 134
+ },
+ {
+  "id": "P476",
+  "name": "권예람",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "원광대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 88.3,
+  "best": 51,
+  "picked_rate": 3.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.6
+   },
+   {
+    "team": "롯데",
+    "pct": 0.6
+   }
+  ],
+  "rank": 135
+ },
+ {
+  "id": "P525",
+  "name": "최윤호",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 88.3,
+  "best": 65,
+  "picked_rate": 0.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.2
+   },
+   {
+    "team": "삼성",
+    "pct": 0.1
+   }
+  ],
+  "rank": 136
+ },
+ {
+  "id": "P447",
+  "name": "박찬영",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "영남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 88.4,
+  "best": 46,
+  "picked_rate": 10.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.9
+   },
+   {
+    "team": "삼성",
+    "pct": 1.8
+   }
+  ],
+  "rank": 137
+ },
+ {
+  "id": "P136",
+  "name": "권민수",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "강릉고",
+  "type": "HS",
+  "talent": 60.4,
+  "conf": "mid",
+  "avg": 88.6,
+  "best": 32,
+  "picked_rate": 83.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 13.9
+   },
+   {
+    "team": "한화",
+    "pct": 10.6
+   }
+  ],
+  "rank": 138
+ },
+ {
+  "id": "P106",
+  "name": "조휘원",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "광주제일고",
+  "type": "HS",
+  "talent": 61.7,
+  "conf": "mid",
+  "avg": 88.7,
+  "best": 37,
+  "picked_rate": 65.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 8.6
+   },
+   {
+    "team": "롯데",
+    "pct": 8.1
+   }
+  ],
+  "rank": 139
+ },
+ {
+  "id": "P077",
+  "name": "곽동엽",
+  "pos": "투수",
+  "tb": "좌투",
+  "school": "서울자동차고",
+  "type": "HS",
+  "talent": 54.4,
+  "conf": "mid",
+  "avg": 89.0,
+  "best": 89,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 140
+ },
+ {
+  "id": "P251",
+  "name": "오승빈",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "경희대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 89.2,
+  "best": 58,
+  "picked_rate": 3.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.8
+   },
+   {
+    "team": "SSG",
+    "pct": 0.8
+   }
+  ],
+  "rank": 141
+ },
+ {
+  "id": "P484",
+  "name": "정슬기",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "원광대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 89.2,
+  "best": 49,
+  "picked_rate": 3.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.6
+   },
+   {
+    "team": "LG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 142
+ },
+ {
+  "id": "P237",
+  "name": "장준영",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "계명대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 89.3,
+  "best": 29,
+  "picked_rate": 3.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.8
+   },
+   {
+    "team": "LG",
+    "pct": 0.8
+   }
+  ],
+  "rank": 143
+ },
+ {
+  "id": "P509",
+  "name": "김정환",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "인하대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 89.4,
+  "best": 56,
+  "picked_rate": 2.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 1.0
+   },
+   {
+    "team": "두산",
+    "pct": 0.4
+   }
+  ],
+  "rank": 144
+ },
+ {
+  "id": "P222",
+  "name": "김다운",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "건국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 89.5,
+  "best": 77,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.1
+   },
+   {
+    "team": "삼성",
+    "pct": 0.1
+   }
+  ],
+  "rank": 145
+ },
+ {
+  "id": "P479",
+  "name": "신유진",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "원광대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 89.6,
+  "best": 45,
+  "picked_rate": 10.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.8
+   },
+   {
+    "team": "kt",
+    "pct": 1.6
+   }
+  ],
+  "rank": 146
+ },
+ {
+  "id": "P107",
+  "name": "정휘민",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "광주제일고",
+  "type": "HS",
+  "talent": 61.2,
+  "conf": "mid",
+  "avg": 89.7,
+  "best": 41,
+  "picked_rate": 57.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 9.2
+   },
+   {
+    "team": "한화",
+    "pct": 7.6
+   }
+  ],
+  "rank": 147
+ },
+ {
+  "id": "P275",
+  "name": "이유민",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "구미대",
+  "type": "COL",
+  "talent": 55.5,
+  "conf": "low",
+  "avg": 89.7,
+  "best": 65,
+  "picked_rate": 0.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.5
+   },
+   {
+    "team": "한화",
+    "pct": 0.2
+   }
+  ],
+  "rank": 148
+ },
+ {
+  "id": "P398",
+  "name": "양서진",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "서울대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 89.8,
+  "best": 65,
+  "picked_rate": 3.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.6
+   },
+   {
+    "team": "두산",
+    "pct": 0.6
+   }
+  ],
+  "rank": 149
+ },
+ {
+  "id": "P260",
+  "name": "오대희",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 89.8,
+  "best": 68,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.1
+   },
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 150
+ },
+ {
+  "id": "P450",
+  "name": "정예건",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "영남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 89.9,
+  "best": 50,
+  "picked_rate": 3.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 1.0
+   },
+   {
+    "team": "LG",
+    "pct": 0.8
+   }
+  ],
+  "rank": 151
+ },
+ {
+  "id": "P205",
+  "name": "박무성",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경일대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.0,
+  "best": 90,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 152
+ },
+ {
+  "id": "P402",
+  "name": "박서준",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "성균관대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.0,
+  "best": 90,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 153
+ },
+ {
+  "id": "P365",
+  "name": "강동현",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "사이버한국외대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.1,
+  "best": 60,
+  "picked_rate": 3.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.8
+   },
+   {
+    "team": "한화",
+    "pct": 0.6
+   }
+  ],
+  "rank": 154
+ },
+ {
+  "id": "P230",
+  "name": "장민혁",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "경성대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.1,
+  "best": 55,
+  "picked_rate": 3.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.4
+   },
+   {
+    "team": "SSG",
+    "pct": 0.4
+   }
+  ],
+  "rank": 155
+ },
+ {
+  "id": "P487",
+  "name": "류주열",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "유원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.1,
+  "best": 64,
+  "picked_rate": 4.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.9
+   },
+   {
+    "team": "한화",
+    "pct": 0.8
+   }
+  ],
+  "rank": 156
+ },
+ {
+  "id": "P545",
+  "name": "유비",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "홍익대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.2,
+  "best": 63,
+  "picked_rate": 2.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.6
+   },
+   {
+    "team": "KIA",
+    "pct": 0.4
+   }
+  ],
+  "rank": 157
+ },
+ {
+  "id": "P314",
+  "name": "김태언",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 90.2,
+  "best": 64,
+  "picked_rate": 3.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.9
+   },
+   {
+    "team": "한화",
+    "pct": 0.6
+   }
+  ],
+  "rank": 158
+ },
+ {
+  "id": "P426",
+  "name": "백서율",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "수성대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 90.4,
+  "best": 64,
+  "picked_rate": 1.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.4
+   },
+   {
+    "team": "롯데",
+    "pct": 0.2
+   }
+  ],
+  "rank": 159
+ },
+ {
+  "id": "P401",
+  "name": "김준우",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "성균관대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.4,
+  "best": 48,
+  "picked_rate": 12.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 1.6
+   },
+   {
+    "team": "kt",
+    "pct": 1.6
+   }
+  ],
+  "rank": 160
+ },
+ {
+  "id": "P350",
+  "name": "박성우",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 90.4,
+  "best": 49,
+  "picked_rate": 4.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.9
+   },
+   {
+    "team": "SSG",
+    "pct": 0.6
+   }
+  ],
+  "rank": 161
+ },
+ {
+  "id": "P306",
+  "name": "강동혁",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 90.4,
+  "best": 71,
+  "picked_rate": 1.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.2
+   },
+   {
+    "team": "키움",
+    "pct": 0.2
+   }
+  ],
+  "rank": 162
+ },
+ {
+  "id": "P532",
+  "name": "임영기",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "한양대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.5,
+  "best": 65,
+  "picked_rate": 3.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.6
+   },
+   {
+    "team": "삼성",
+    "pct": 0.5
+   }
+  ],
+  "rank": 163
+ },
+ {
+  "id": "P530",
+  "name": "이종환",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "한양대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.5,
+  "best": 46,
+  "picked_rate": 10.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.6
+   },
+   {
+    "team": "두산",
+    "pct": 1.6
+   }
+  ],
+  "rank": 164
+ },
+ {
+  "id": "P405",
+  "name": "최경빈",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "성균관대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.5,
+  "best": 77,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.1
+   },
+   {
+    "team": "삼성",
+    "pct": 0.1
+   }
+  ],
+  "rank": 165
+ },
+ {
+  "id": "P147",
+  "name": "임영주",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 71,
+  "conf": "mid",
+  "avg": 90.8,
+  "best": 40,
+  "picked_rate": 54.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 10.5
+   },
+   {
+    "team": "NC",
+    "pct": 7.9
+   }
+  ],
+  "rank": 166
+ },
+ {
+  "id": "P420",
+  "name": "옥성주",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울문화예술대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.8,
+  "best": 70,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.1
+   },
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 167
+ },
+ {
+  "id": "P346",
+  "name": "강태인",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 90.8,
+  "best": 55,
+  "picked_rate": 4.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.8
+   },
+   {
+    "team": "키움",
+    "pct": 0.6
+   }
+  ],
+  "rank": 168
+ },
+ {
+  "id": "P503",
+  "name": "이승현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "중앙대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.8,
+  "best": 71,
+  "picked_rate": 0.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.2
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 169
+ },
+ {
+  "id": "P246",
+  "name": "고민재",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "경희대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 90.9,
+  "best": 52,
+  "picked_rate": 2.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.8
+   },
+   {
+    "team": "두산",
+    "pct": 0.4
+   }
+  ],
+  "rank": 170
+ },
+ {
+  "id": "P269",
+  "name": "강병찬",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "구미대",
+  "type": "COL",
+  "talent": 55.5,
+  "conf": "low",
+  "avg": 90.9,
+  "best": 52,
+  "picked_rate": 5.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.1
+   },
+   {
+    "team": "두산",
+    "pct": 1.0
+   }
+  ],
+  "rank": 171
+ },
+ {
+  "id": "P165",
+  "name": "이루하",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "계명대",
+  "type": "COL",
+  "talent": 67,
+  "conf": "mid",
+  "avg": 91.0,
+  "best": 42,
+  "picked_rate": 50.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 8.4
+   },
+   {
+    "team": "한화",
+    "pct": 6.5
+   }
+  ],
+  "rank": 172
+ },
+ {
+  "id": "P506",
+  "name": "강성현",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "인하대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.0,
+  "best": 66,
+  "picked_rate": 2.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.9
+   },
+   {
+    "team": "두산",
+    "pct": 0.6
+   }
+  ],
+  "rank": 173
+ },
+ {
+  "id": "P361",
+  "name": "황용준",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.0,
+  "best": 64,
+  "picked_rate": 4.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.6
+   },
+   {
+    "team": "SSG",
+    "pct": 0.6
+   }
+  ],
+  "rank": 174
+ },
+ {
+  "id": "P393",
+  "name": "최지훈",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.0,
+  "best": 71,
+  "picked_rate": 0.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   },
+   {
+    "team": "두산",
+    "pct": 0.1
+   }
+  ],
+  "rank": 175
+ },
+ {
+  "id": "P520",
+  "name": "양현승",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.0,
+  "best": 59,
+  "picked_rate": 0.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.2
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 176
+ },
+ {
+  "id": "P331",
+  "name": "이근우",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동아대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.0,
+  "best": 44,
+  "picked_rate": 3.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.1
+   },
+   {
+    "team": "롯데",
+    "pct": 0.5
+   }
+  ],
+  "rank": 177
+ },
+ {
+  "id": "P364",
+  "name": "이창희",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동의대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.0,
+  "best": 90,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.1
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 178
+ },
+ {
+  "id": "P067",
+  "name": "정환희",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경북고",
+  "type": "HS",
+  "talent": 56.9,
+  "conf": "mid",
+  "avg": 91.0,
+  "best": 91,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 179
+ },
+ {
+  "id": "P109",
+  "name": "김준환",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "안산공고",
+  "type": "HS",
+  "talent": 60.4,
+  "conf": "mid",
+  "avg": 91.1,
+  "best": 39,
+  "picked_rate": 40.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 5.8
+   },
+   {
+    "team": "삼성",
+    "pct": 5.6
+   }
+  ],
+  "rank": 180
+ },
+ {
+  "id": "P288",
+  "name": "박세민",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "대덕대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.1,
+  "best": 72,
+  "picked_rate": 1.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.2
+   },
+   {
+    "team": "NC",
+    "pct": 0.2
+   }
+  ],
+  "rank": 181
+ },
+ {
+  "id": "P044",
+  "name": "서민준",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "김해고",
+  "type": "HS",
+  "talent": 61.3,
+  "conf": "mid",
+  "avg": 91.1,
+  "best": 14,
+  "picked_rate": 25.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 4.6
+   },
+   {
+    "team": "삼성",
+    "pct": 3.6
+   }
+  ],
+  "rank": 182
+ },
+ {
+  "id": "P344",
+  "name": "최종현",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "동원대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.1,
+  "best": 52,
+  "picked_rate": 5.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.0
+   },
+   {
+    "team": "SSG",
+    "pct": 0.9
+   }
+  ],
+  "rank": 183
+ },
+ {
+  "id": "P462",
+  "name": "송민종",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.1,
+  "best": 76,
+  "picked_rate": 1.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.2
+   },
+   {
+    "team": "한화",
+    "pct": 0.2
+   }
+  ],
+  "rank": 184
+ },
+ {
+  "id": "P478",
+  "name": "박주원",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "원광대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.1,
+  "best": 51,
+  "picked_rate": 10.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.9
+   },
+   {
+    "team": "한화",
+    "pct": 1.4
+   }
+  ],
+  "rank": 185
+ },
+ {
+  "id": "P355",
+  "name": "이재용",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.2,
+  "best": 59,
+  "picked_rate": 4.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.8
+   },
+   {
+    "team": "한화",
+    "pct": 0.8
+   }
+  ],
+  "rank": 186
+ },
+ {
+  "id": "P356",
+  "name": "이재호",
+  "pos": "외야수",
+  "tb": "-",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.4,
+  "best": 55,
+  "picked_rate": 3.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.6
+   },
+   {
+    "team": "SSG",
+    "pct": 0.6
+   }
+  ],
+  "rank": 187
+ },
+ {
+  "id": "P244",
+  "name": "박세훈",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "고려대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.4,
+  "best": 41,
+  "picked_rate": 13.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.9
+   },
+   {
+    "team": "kt",
+    "pct": 1.8
+   }
+  ],
+  "rank": 188
+ },
+ {
+  "id": "P036",
+  "name": "신동현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울컨벤션고",
+  "type": "HS",
+  "talent": 63.7,
+  "conf": "mid",
+  "avg": 91.4,
+  "best": 23,
+  "picked_rate": 31.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 4.8
+   },
+   {
+    "team": "SSG",
+    "pct": 4.4
+   }
+  ],
+  "rank": 189
+ },
+ {
+  "id": "P453",
+  "name": "이지원",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "연세대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.4,
+  "best": 70,
+  "picked_rate": 2.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.4
+   },
+   {
+    "team": "KIA",
+    "pct": 0.4
+   }
+  ],
+  "rank": 190
+ },
+ {
+  "id": "P408",
+  "name": "김범준",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "송원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.5,
+  "best": 62,
+  "picked_rate": 3.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.6
+   },
+   {
+    "team": "삼성",
+    "pct": 0.6
+   }
+  ],
+  "rank": 191
+ },
+ {
+  "id": "P510",
+  "name": "문교원",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "인하대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.5,
+  "best": 46,
+  "picked_rate": 11.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.6
+   },
+   {
+    "team": "LG",
+    "pct": 1.6
+   }
+  ],
+  "rank": 192
+ },
+ {
+  "id": "P276",
+  "name": "곽성준",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "단국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.5,
+  "best": 71,
+  "picked_rate": 2.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.5
+   },
+   {
+    "team": "한화",
+    "pct": 0.4
+   }
+  ],
+  "rank": 193
+ },
+ {
+  "id": "P528",
+  "name": "김지욱",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "한양대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.6,
+  "best": 59,
+  "picked_rate": 2.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.6
+   },
+   {
+    "team": "두산",
+    "pct": 0.4
+   }
+  ],
+  "rank": 194
+ },
+ {
+  "id": "P318",
+  "name": "문호석",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.7,
+  "best": 66,
+  "picked_rate": 4.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 1.0
+   },
+   {
+    "team": "NC",
+    "pct": 0.6
+   }
+  ],
+  "rank": 195
+ },
+ {
+  "id": "P337",
+  "name": "김태원",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동원대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.8,
+  "best": 66,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.4
+   },
+   {
+    "team": "NC",
+    "pct": 0.2
+   }
+  ],
+  "rank": 196
+ },
+ {
+  "id": "P242",
+  "name": "김영후",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "고려대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.9,
+  "best": 38,
+  "picked_rate": 12.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.4
+   },
+   {
+    "team": "kt",
+    "pct": 1.9
+   }
+  ],
+  "rank": 197
+ },
+ {
+  "id": "P490",
+  "name": "오진우",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "유원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.9,
+  "best": 42,
+  "picked_rate": 11.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 2.1
+   },
+   {
+    "team": "두산",
+    "pct": 1.9
+   }
+  ],
+  "rank": 198
+ },
+ {
+  "id": "P234",
+  "name": "김준현",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "계명대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.9,
+  "best": 43,
+  "picked_rate": 3.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.8
+   },
+   {
+    "team": "NC",
+    "pct": 0.6
+   }
+  ],
+  "rank": 199
+ },
+ {
+  "id": "P118",
+  "name": "김서준",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "상동고",
+  "type": "HS",
+  "talent": 56.3,
+  "conf": "mid",
+  "avg": 91.9,
+  "best": 54,
+  "picked_rate": 13.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 2.1
+   },
+   {
+    "team": "KIA",
+    "pct": 2.1
+   }
+  ],
+  "rank": 200
+ },
+ {
+  "id": "P542",
+  "name": "지승기",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "한일장신대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 91.9,
+  "best": 48,
+  "picked_rate": 12.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.6
+   },
+   {
+    "team": "한화",
+    "pct": 1.6
+   }
+  ],
+  "rank": 201
+ },
+ {
+  "id": "P516",
+  "name": "김재경",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 91.9,
+  "best": 71,
+  "picked_rate": 1.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.2
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 202
+ },
+ {
+  "id": "P039",
+  "name": "변지석",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "휘문고",
+  "type": "HS",
+  "talent": 64.2,
+  "conf": "mid",
+  "avg": 92.0,
+  "best": 26,
+  "picked_rate": 41.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 6.9
+   },
+   {
+    "team": "삼성",
+    "pct": 5.6
+   }
+  ],
+  "rank": 203
+ },
+ {
+  "id": "P399",
+  "name": "이진산",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "서울대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.0,
+  "best": 69,
+  "picked_rate": 3.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.8
+   },
+   {
+    "team": "LG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 204
+ },
+ {
+  "id": "P250",
+  "name": "안제현",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "경희대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.0,
+  "best": 56,
+  "picked_rate": 12.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.1
+   },
+   {
+    "team": "삼성",
+    "pct": 1.9
+   }
+  ],
+  "rank": 205
+ },
+ {
+  "id": "P540",
+  "name": "임영준",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "한일장신대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.0,
+  "best": 64,
+  "picked_rate": 3.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.6
+   },
+   {
+    "team": "롯데",
+    "pct": 0.6
+   }
+  ],
+  "rank": 206
+ },
+ {
+  "id": "P535",
+  "name": "한혜성",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "충북보건과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 92.0,
+  "best": 69,
+  "picked_rate": 0.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.2
+   },
+   {
+    "team": "SSG",
+    "pct": 0.2
+   }
+  ],
+  "rank": 207
+ },
+ {
+  "id": "P323",
+  "name": "안병용",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 92.0,
+  "best": 56,
+  "picked_rate": 4.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.8
+   },
+   {
+    "team": "키움",
+    "pct": 0.6
+   }
+  ],
+  "rank": 208
+ },
+ {
+  "id": "P203",
+  "name": "김건하",
+  "pos": "투수",
+  "tb": "우투좌타",
+  "school": "경일대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.0,
+  "best": 92,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.1
+   }
+  ],
+  "rank": 209
+ },
+ {
+  "id": "P247",
+  "name": "박효성",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "경희대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.1,
+  "best": 48,
+  "picked_rate": 11.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.0
+   },
+   {
+    "team": "한화",
+    "pct": 1.6
+   }
+  ],
+  "rank": 210
+ },
+ {
+  "id": "P110",
+  "name": "홍재욱",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "전주고",
+  "type": "HS",
+  "talent": 59.9,
+  "conf": "mid",
+  "avg": 92.1,
+  "best": 47,
+  "picked_rate": 31.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 5.5
+   },
+   {
+    "team": "삼성",
+    "pct": 4.5
+   }
+  ],
+  "rank": 211
+ },
+ {
+  "id": "P531",
+  "name": "임성규",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "한양대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.2,
+  "best": 71,
+  "picked_rate": 11.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 1.6
+   },
+   {
+    "team": "LG",
+    "pct": 1.5
+   }
+  ],
+  "rank": 212
+ },
+ {
+  "id": "P544",
+  "name": "박상헌",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "홍익대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.2,
+  "best": 34,
+  "picked_rate": 13.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 2.0
+   },
+   {
+    "team": "삼성",
+    "pct": 1.8
+   }
+  ],
+  "rank": 213
+ },
+ {
+  "id": "P119",
+  "name": "김선빈",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "서울고",
+  "type": "HS",
+  "talent": 55.9,
+  "conf": "mid",
+  "avg": 92.2,
+  "best": 57,
+  "picked_rate": 10.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 1.8
+   },
+   {
+    "team": "SSG",
+    "pct": 1.6
+   }
+  ],
+  "rank": 214
+ },
+ {
+  "id": "P332",
+  "name": "장성현",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "동아대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.2,
+  "best": 43,
+  "picked_rate": 13.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 2.0
+   },
+   {
+    "team": "한화",
+    "pct": 2.0
+   }
+  ],
+  "rank": 215
+ },
+ {
+  "id": "P319",
+  "name": "박준형",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 92.2,
+  "best": 71,
+  "picked_rate": 4.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.2
+   },
+   {
+    "team": "SSG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 216
+ },
+ {
+  "id": "P537",
+  "name": "김민서",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "한일장신대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.2,
+  "best": 71,
+  "picked_rate": 3.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.5
+   },
+   {
+    "team": "KIA",
+    "pct": 0.4
+   }
+  ],
+  "rank": 217
+ },
+ {
+  "id": "P512",
+  "name": "전민준",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "인하대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.2,
+  "best": 45,
+  "picked_rate": 10.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.8
+   },
+   {
+    "team": "SSG",
+    "pct": 1.4
+   }
+  ],
+  "rank": 218
+ },
+ {
+  "id": "P513",
+  "name": "강민석",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 92.2,
+  "best": 77,
+  "picked_rate": 1.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.2
+   },
+   {
+    "team": "롯데",
+    "pct": 0.1
+   }
+  ],
+  "rank": 219
+ },
+ {
+  "id": "P439",
+  "name": "이정주",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 92.2,
+  "best": 73,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.2
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 220
+ },
+ {
+  "id": "P504",
+  "name": "이준서",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "중앙대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.3,
+  "best": 55,
+  "picked_rate": 10.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.8
+   },
+   {
+    "team": "LG",
+    "pct": 1.4
+   }
+  ],
+  "rank": 221
+ },
+ {
+  "id": "P239",
+  "name": "강민우",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "고려대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.3,
+  "best": 66,
+  "picked_rate": 3.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.6
+   },
+   {
+    "team": "SSG",
+    "pct": 0.6
+   }
+  ],
+  "rank": 222
+ },
+ {
+  "id": "P527",
+  "name": "장수원",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "청운대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.3,
+  "best": 45,
+  "picked_rate": 13.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 2.1
+   },
+   {
+    "team": "NC",
+    "pct": 1.8
+   }
+  ],
+  "rank": 223
+ },
+ {
+  "id": "P056",
+  "name": "김규민",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "덕수고",
+  "type": "HS",
+  "talent": 57.7,
+  "conf": "mid",
+  "avg": 92.3,
+  "best": 54,
+  "picked_rate": 2.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.5
+   },
+   {
+    "team": "kt",
+    "pct": 0.4
+   }
+  ],
+  "rank": 224
+ },
+ {
+  "id": "P436",
+  "name": "박민준",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 92.4,
+  "best": 45,
+  "picked_rate": 3.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.9
+   },
+   {
+    "team": "삼성",
+    "pct": 0.6
+   }
+  ],
+  "rank": 225
+ },
+ {
+  "id": "P281",
+  "name": "차원영",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "단국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.4,
+  "best": 35,
+  "picked_rate": 12.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 1.8
+   },
+   {
+    "team": "NC",
+    "pct": 1.8
+   }
+  ],
+  "rank": 226
+ },
+ {
+  "id": "P475",
+  "name": "정영석",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "우석대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.5,
+  "best": 48,
+  "picked_rate": 13.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.2
+   },
+   {
+    "team": "LG",
+    "pct": 1.8
+   }
+  ],
+  "rank": 227
+ },
+ {
+  "id": "P117",
+  "name": "김건",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "진영고",
+  "type": "HS",
+  "talent": 56.8,
+  "conf": "mid",
+  "avg": 92.6,
+  "best": 31,
+  "picked_rate": 18.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 3.8
+   },
+   {
+    "team": "키움",
+    "pct": 2.5
+   }
+  ],
+  "rank": 228
+ },
+ {
+  "id": "P526",
+  "name": "나예준",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "청운대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.6,
+  "best": 45,
+  "picked_rate": 13.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 1.8
+   },
+   {
+    "team": "LG",
+    "pct": 1.8
+   }
+  ],
+  "rank": 229
+ },
+ {
+  "id": "P185",
+  "name": "김세정",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 92.6,
+  "best": 68,
+  "picked_rate": 3.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.8
+   },
+   {
+    "team": "LG",
+    "pct": 0.6
+   }
+  ],
+  "rank": 230
+ },
+ {
+  "id": "P511",
+  "name": "이유성",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "인하대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.7,
+  "best": 56,
+  "picked_rate": 3.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.6
+   },
+   {
+    "team": "LG",
+    "pct": 0.6
+   }
+  ],
+  "rank": 231
+ },
+ {
+  "id": "P335",
+  "name": "김동혁",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "동원대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 92.7,
+  "best": 62,
+  "picked_rate": 3.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.6
+   },
+   {
+    "team": "KIA",
+    "pct": 0.5
+   }
+  ],
+  "rank": 232
+ },
+ {
+  "id": "P396",
+  "name": "김대연",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "목포과학대",
+  "type": "COL",
+  "talent": 55.5,
+  "conf": "low",
+  "avg": 92.8,
+  "best": 51,
+  "picked_rate": 4.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.9
+   },
+   {
+    "team": "LG",
+    "pct": 0.6
+   }
+  ],
+  "rank": 233
+ },
+ {
+  "id": "P422",
+  "name": "이도현",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "서울문화예술대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.9,
+  "best": 45,
+  "picked_rate": 12.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 2.4
+   },
+   {
+    "team": "롯데",
+    "pct": 1.5
+   }
+  ],
+  "rank": 234
+ },
+ {
+  "id": "P202",
+  "name": "전성빈",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "경남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 92.9,
+  "best": 49,
+  "picked_rate": 10.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.8
+   },
+   {
+    "team": "한화",
+    "pct": 1.6
+   }
+  ],
+  "rank": 235
+ },
+ {
+  "id": "P192",
+  "name": "이동윤",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 92.9,
+  "best": 69,
+  "picked_rate": 3.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.0
+   },
+   {
+    "team": "SSG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 236
+ },
+ {
+  "id": "P358",
+  "name": "최성민",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.0,
+  "best": 48,
+  "picked_rate": 5.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.2
+   },
+   {
+    "team": "LG",
+    "pct": 0.9
+   }
+  ],
+  "rank": 237
+ },
+ {
+  "id": "P482",
+  "name": "이용일",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "원광대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.0,
+  "best": 48,
+  "picked_rate": 12.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.8
+   },
+   {
+    "team": "SSG",
+    "pct": 1.5
+   }
+  ],
+  "rank": 238
+ },
+ {
+  "id": "P388",
+  "name": "정의학",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.0,
+  "best": 78,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.2
+   }
+  ],
+  "rank": 239
+ },
+ {
+  "id": "P382",
+  "name": "이동엽",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.0,
+  "best": 71,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.1
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 240
+ },
+ {
+  "id": "P123",
+  "name": "서승운",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "청주고",
+  "type": "HS",
+  "talent": 54.0,
+  "conf": "mid",
+  "avg": 93.0,
+  "best": 92,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.1
+   },
+   {
+    "team": "두산",
+    "pct": 0.1
+   }
+  ],
+  "rank": 241
+ },
+ {
+  "id": "P389",
+  "name": "정재윤",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.0,
+  "best": 93,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 242
+ },
+ {
+  "id": "P231",
+  "name": "최형조",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경성대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.0,
+  "best": 93,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 243
+ },
+ {
+  "id": "P409",
+  "name": "류민승",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "송원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.1,
+  "best": 63,
+  "picked_rate": 13.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 2.1
+   },
+   {
+    "team": "SSG",
+    "pct": 2.1
+   }
+  ],
+  "rank": 244
+ },
+ {
+  "id": "P471",
+  "name": "홍민기",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.1,
+  "best": 52,
+  "picked_rate": 3.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.8
+   },
+   {
+    "team": "삼성",
+    "pct": 0.6
+   }
+  ],
+  "rank": 245
+ },
+ {
+  "id": "P371",
+  "name": "정현우",
+  "pos": "외야수",
+  "tb": "우투양타",
+  "school": "사이버한국외대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.1,
+  "best": 52,
+  "picked_rate": 11.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.1
+   },
+   {
+    "team": "LG",
+    "pct": 1.8
+   }
+  ],
+  "rank": 246
+ },
+ {
+  "id": "P543",
+  "name": "임호정",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "호원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.1,
+  "best": 52,
+  "picked_rate": 11.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 2.0
+   },
+   {
+    "team": "두산",
+    "pct": 1.8
+   }
+  ],
+  "rank": 247
+ },
+ {
+  "id": "P282",
+  "name": "최재영",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "단국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.2,
+  "best": 55,
+  "picked_rate": 12.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.9
+   },
+   {
+    "team": "LG",
+    "pct": 1.6
+   }
+  ],
+  "rank": 248
+ },
+ {
+  "id": "P188",
+  "name": "박민우",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.2,
+  "best": 68,
+  "picked_rate": 3.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.6
+   },
+   {
+    "team": "SSG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 249
+ },
+ {
+  "id": "P280",
+  "name": "조수현",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "단국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.2,
+  "best": 82,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.2
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 250
+ },
+ {
+  "id": "P315",
+  "name": "나준우",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.2,
+  "best": 67,
+  "picked_rate": 1.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.4
+   },
+   {
+    "team": "삼성",
+    "pct": 0.2
+   }
+  ],
+  "rank": 251
+ },
+ {
+  "id": "P040",
+  "name": "김단",
+  "pos": "투수",
+  "tb": "우투좌타",
+  "school": "휘문고",
+  "type": "HS",
+  "talent": 62.5,
+  "conf": "mid",
+  "avg": 93.3,
+  "best": 28,
+  "picked_rate": 14.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 2.1
+   },
+   {
+    "team": "LG",
+    "pct": 1.9
+   }
+  ],
+  "rank": 252
+ },
+ {
+  "id": "P442",
+  "name": "임준혁",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.3,
+  "best": 38,
+  "picked_rate": 5.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.4
+   },
+   {
+    "team": "NC",
+    "pct": 1.1
+   }
+  ],
+  "rank": 253
+ },
+ {
+  "id": "P363",
+  "name": "이승재",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "동의대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.4,
+  "best": 48,
+  "picked_rate": 11.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.0
+   },
+   {
+    "team": "kt",
+    "pct": 1.4
+   }
+  ],
+  "rank": 254
+ },
+ {
+  "id": "P454",
+  "name": "조장현",
+  "pos": "외야수",
+  "tb": "우투양타",
+  "school": "연세대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.4,
+  "best": 67,
+  "picked_rate": 11.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 2.0
+   },
+   {
+    "team": "SSG",
+    "pct": 1.8
+   }
+  ],
+  "rank": 255
+ },
+ {
+  "id": "P035",
+  "name": "이하람",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울컨벤션고",
+  "type": "HS",
+  "talent": 64.0,
+  "conf": "mid",
+  "avg": 93.4,
+  "best": 36,
+  "picked_rate": 33.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 4.9
+   },
+   {
+    "team": "키움",
+    "pct": 4.0
+   }
+  ],
+  "rank": 256
+ },
+ {
+  "id": "P114",
+  "name": "김동영",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "공주고",
+  "type": "HS",
+  "talent": 58.1,
+  "conf": "mid",
+  "avg": 93.4,
+  "best": 58,
+  "picked_rate": 9.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.8
+   },
+   {
+    "team": "KIA",
+    "pct": 1.6
+   }
+  ],
+  "rank": 257
+ },
+ {
+  "id": "P037",
+  "name": "김정현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "휘문고",
+  "type": "HS",
+  "talent": 63.4,
+  "conf": "mid",
+  "avg": 93.4,
+  "best": 31,
+  "picked_rate": 22.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 3.8
+   },
+   {
+    "team": "키움",
+    "pct": 3.5
+   }
+  ],
+  "rank": 258
+ },
+ {
+  "id": "P305",
+  "name": "정재민",
+  "pos": "외야수",
+  "tb": "-",
+  "school": "동강대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.4,
+  "best": 56,
+  "picked_rate": 3.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.8
+   },
+   {
+    "team": "NC",
+    "pct": 0.5
+   }
+  ],
+  "rank": 259
+ },
+ {
+  "id": "P199",
+  "name": "김영운",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "경남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.5,
+  "best": 46,
+  "picked_rate": 11.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 1.9
+   },
+   {
+    "team": "한화",
+    "pct": 1.9
+   }
+  ],
+  "rank": 260
+ },
+ {
+  "id": "P152",
+  "name": "조영우",
+  "pos": "투수",
+  "tb": "좌투우타",
+  "school": "연세대",
+  "type": "COL",
+  "talent": 68,
+  "conf": "mid",
+  "avg": 93.5,
+  "best": 71,
+  "picked_rate": 4.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.9
+   },
+   {
+    "team": "NC",
+    "pct": 0.9
+   }
+  ],
+  "rank": 261
+ },
+ {
+  "id": "P219",
+  "name": "최준서",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "경민대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.5,
+  "best": 64,
+  "picked_rate": 4.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.8
+   },
+   {
+    "team": "두산",
+    "pct": 0.8
+   }
+  ],
+  "rank": 262
+ },
+ {
+  "id": "P338",
+  "name": "김현우",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "동원대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.6,
+  "best": 42,
+  "picked_rate": 7.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 1.8
+   },
+   {
+    "team": "롯데",
+    "pct": 1.1
+   }
+  ],
+  "rank": 263
+ },
+ {
+  "id": "P254",
+  "name": "김민찬",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.6,
+  "best": 58,
+  "picked_rate": 4.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.9
+   },
+   {
+    "team": "두산",
+    "pct": 0.8
+   }
+  ],
+  "rank": 264
+ },
+ {
+  "id": "P524",
+  "name": "이찬양",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.7,
+  "best": 72,
+  "picked_rate": 3.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.9
+   },
+   {
+    "team": "삼성",
+    "pct": 0.6
+   }
+  ],
+  "rank": 265
+ },
+ {
+  "id": "P054",
+  "name": "임준원",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "강릉고",
+  "type": "HS",
+  "talent": 61.3,
+  "conf": "mid",
+  "avg": 93.7,
+  "best": 32,
+  "picked_rate": 6.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 1.1
+   },
+   {
+    "team": "삼성",
+    "pct": 1.0
+   }
+  ],
+  "rank": 266
+ },
+ {
+  "id": "P373",
+  "name": "가도윤",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.7,
+  "best": 75,
+  "picked_rate": 4.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 1.0
+   },
+   {
+    "team": "한화",
+    "pct": 0.8
+   }
+  ],
+  "rank": 267
+ },
+ {
+  "id": "P329",
+  "name": "김락현",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동아대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.7,
+  "best": 57,
+  "picked_rate": 3.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.8
+   },
+   {
+    "team": "kt",
+    "pct": 0.6
+   }
+  ],
+  "rank": 268
+ },
+ {
+  "id": "P148",
+  "name": "박세준",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 70,
+  "conf": "mid",
+  "avg": 93.8,
+  "best": 45,
+  "picked_rate": 25.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 4.8
+   },
+   {
+    "team": "kt",
+    "pct": 4.4
+   }
+  ],
+  "rank": 269
+ },
+ {
+  "id": "P370",
+  "name": "정현영",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "사이버한국외대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.8,
+  "best": 49,
+  "picked_rate": 10.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 2.4
+   },
+   {
+    "team": "한화",
+    "pct": 1.8
+   }
+  ],
+  "rank": 270
+ },
+ {
+  "id": "P210",
+  "name": "김용희",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "경민대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.8,
+  "best": 69,
+  "picked_rate": 4.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.9
+   },
+   {
+    "team": "키움",
+    "pct": 0.6
+   }
+  ],
+  "rank": 271
+ },
+ {
+  "id": "P190",
+  "name": "오태우",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.9,
+  "best": 72,
+  "picked_rate": 4.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.8
+   },
+   {
+    "team": "두산",
+    "pct": 0.8
+   }
+  ],
+  "rank": 272
+ },
+ {
+  "id": "P229",
+  "name": "오지우",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "경성대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 93.9,
+  "best": 53,
+  "picked_rate": 11.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.8
+   },
+   {
+    "team": "kt",
+    "pct": 1.5
+   }
+  ],
+  "rank": 273
+ },
+ {
+  "id": "P079",
+  "name": "박준성",
+  "pos": "외야수",
+  "tb": "좌투",
+  "school": "인창고",
+  "type": "HS",
+  "talent": 53.8,
+  "conf": "mid",
+  "avg": 93.9,
+  "best": 51,
+  "picked_rate": 11.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 2.2
+   },
+   {
+    "team": "SSG",
+    "pct": 2.0
+   }
+  ],
+  "rank": 274
+ },
+ {
+  "id": "P301",
+  "name": "윤진헌",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "동강대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 93.9,
+  "best": 52,
+  "picked_rate": 0.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.2
+   },
+   {
+    "team": "두산",
+    "pct": 0.2
+   }
+  ],
+  "rank": 275
+ },
+ {
+  "id": "P253",
+  "name": "전수완",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "경희대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.0,
+  "best": 69,
+  "picked_rate": 2.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.5
+   },
+   {
+    "team": "NC",
+    "pct": 0.4
+   }
+  ],
+  "rank": 276
+ },
+ {
+  "id": "P120",
+  "name": "이동욱",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "성남고",
+  "type": "HS",
+  "talent": 55.4,
+  "conf": "mid",
+  "avg": 94.0,
+  "best": 81,
+  "picked_rate": 1.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.4
+   },
+   {
+    "team": "삼성",
+    "pct": 0.2
+   }
+  ],
+  "rank": 277
+ },
+ {
+  "id": "P272",
+  "name": "김후명",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "구미대",
+  "type": "COL",
+  "talent": 55.5,
+  "conf": "low",
+  "avg": 94.0,
+  "best": 92,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   },
+   {
+    "team": "두산",
+    "pct": 0.1
+   }
+  ],
+  "rank": 278
+ },
+ {
+  "id": "P539",
+  "name": "유종환",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "한일장신대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.0,
+  "best": 76,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.2
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 279
+ },
+ {
+  "id": "P111",
+  "name": "최우준",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "경북고",
+  "type": "HS",
+  "talent": 59.5,
+  "conf": "mid",
+  "avg": 94.1,
+  "best": 56,
+  "picked_rate": 25.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 3.8
+   },
+   {
+    "team": "한화",
+    "pct": 3.4
+   }
+  ],
+  "rank": 280
+ },
+ {
+  "id": "P279",
+  "name": "전태현",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "단국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.1,
+  "best": 66,
+  "picked_rate": 4.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.9
+   },
+   {
+    "team": "두산",
+    "pct": 0.6
+   }
+  ],
+  "rank": 281
+ },
+ {
+  "id": "P208",
+  "name": "김도현",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "경민대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 94.1,
+  "best": 69,
+  "picked_rate": 5.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.1
+   },
+   {
+    "team": "한화",
+    "pct": 0.9
+   }
+  ],
+  "rank": 282
+ },
+ {
+  "id": "P243",
+  "name": "김준엽",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "고려대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.1,
+  "best": 70,
+  "picked_rate": 3.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.6
+   },
+   {
+    "team": "한화",
+    "pct": 0.6
+   }
+  ],
+  "rank": 283
+ },
+ {
+  "id": "P451",
+  "name": "최영문",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "영남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.2,
+  "best": 56,
+  "picked_rate": 3.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.9
+   },
+   {
+    "team": "NC",
+    "pct": 0.9
+   }
+  ],
+  "rank": 284
+ },
+ {
+  "id": "P240",
+  "name": "김대홍",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "고려대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.3,
+  "best": 52,
+  "picked_rate": 18.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 3.9
+   },
+   {
+    "team": "두산",
+    "pct": 2.8
+   }
+  ],
+  "rank": 285
+ },
+ {
+  "id": "P206",
+  "name": "전준영",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "경일대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.4,
+  "best": 75,
+  "picked_rate": 2.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.5
+   },
+   {
+    "team": "롯데",
+    "pct": 0.5
+   }
+  ],
+  "rank": 286
+ },
+ {
+  "id": "P112",
+  "name": "김윤규",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "휘문고",
+  "type": "HS",
+  "talent": 59.0,
+  "conf": "mid",
+  "avg": 94.5,
+  "best": 49,
+  "picked_rate": 17.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 3.4
+   },
+   {
+    "team": "삼성",
+    "pct": 2.6
+   }
+  ],
+  "rank": 287
+ },
+ {
+  "id": "P038",
+  "name": "임호윤",
+  "pos": "투수",
+  "tb": "우투양타",
+  "school": "휘문고",
+  "type": "HS",
+  "talent": 63.1,
+  "conf": "mid",
+  "avg": 94.5,
+  "best": 33,
+  "picked_rate": 22.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 3.2
+   },
+   {
+    "team": "NC",
+    "pct": 3.0
+   }
+  ],
+  "rank": 288
+ },
+ {
+  "id": "P121",
+  "name": "김건우",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "성남고",
+  "type": "HS",
+  "talent": 55.0,
+  "conf": "mid",
+  "avg": 94.5,
+  "best": 57,
+  "picked_rate": 5.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.1
+   },
+   {
+    "team": "삼성",
+    "pct": 1.1
+   }
+  ],
+  "rank": 289
+ },
+ {
+  "id": "P046",
+  "name": "박시후",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "야탑고",
+  "type": "HS",
+  "talent": 60.7,
+  "conf": "mid",
+  "avg": 94.5,
+  "best": 40,
+  "picked_rate": 3.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.6
+   },
+   {
+    "team": "kt",
+    "pct": 0.6
+   }
+  ],
+  "rank": 290
+ },
+ {
+  "id": "P380",
+  "name": "윤주혁",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 94.5,
+  "best": 65,
+  "picked_rate": 4.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.8
+   },
+   {
+    "team": "한화",
+    "pct": 0.8
+   }
+  ],
+  "rank": 291
+ },
+ {
+  "id": "P296",
+  "name": "이정호",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "동국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.5,
+  "best": 68,
+  "picked_rate": 3.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.6
+   },
+   {
+    "team": "두산",
+    "pct": 0.5
+   }
+  ],
+  "rank": 292
+ },
+ {
+  "id": "P410",
+  "name": "박범구",
+  "pos": "투수",
+  "tb": "우투양타",
+  "school": "송원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.5,
+  "best": 86,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   },
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 293
+ },
+ {
+  "id": "P433",
+  "name": "김민종",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 94.6,
+  "best": 65,
+  "picked_rate": 7.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 1.4
+   },
+   {
+    "team": "kt",
+    "pct": 1.1
+   }
+  ],
+  "rank": 294
+ },
+ {
+  "id": "P150",
+  "name": "조민규",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 69,
+  "conf": "mid",
+  "avg": 94.6,
+  "best": 71,
+  "picked_rate": 12.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 2.5
+   },
+   {
+    "team": "kt",
+    "pct": 2.0
+   }
+  ],
+  "rank": 295
+ },
+ {
+  "id": "P501",
+  "name": "김태현",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "중앙대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.6,
+  "best": 60,
+  "picked_rate": 4.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.9
+   },
+   {
+    "team": "한화",
+    "pct": 0.6
+   }
+  ],
+  "rank": 296
+ },
+ {
+  "id": "P271",
+  "name": "김건욱",
+  "pos": "외야수",
+  "tb": "-",
+  "school": "구미대",
+  "type": "COL",
+  "talent": 55.5,
+  "conf": "low",
+  "avg": 94.6,
+  "best": 64,
+  "picked_rate": 5.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.9
+   },
+   {
+    "team": "kt",
+    "pct": 0.8
+   }
+  ],
+  "rank": 297
+ },
+ {
+  "id": "P307",
+  "name": "김강인",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 94.7,
+  "best": 63,
+  "picked_rate": 3.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.6
+   },
+   {
+    "team": "SSG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 298
+ },
+ {
+  "id": "P298",
+  "name": "천승민",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "동국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.8,
+  "best": 44,
+  "picked_rate": 19.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 3.0
+   },
+   {
+    "team": "kt",
+    "pct": 2.6
+   }
+  ],
+  "rank": 299
+ },
+ {
+  "id": "P263",
+  "name": "이유빈",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 94.8,
+  "best": 57,
+  "picked_rate": 5.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.9
+   },
+   {
+    "team": "kt",
+    "pct": 0.8
+   }
+  ],
+  "rank": 300
+ },
+ {
+  "id": "P366",
+  "name": "강민욱",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "사이버한국외대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 94.9,
+  "best": 68,
+  "picked_rate": 11.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.4
+   },
+   {
+    "team": "한화",
+    "pct": 2.0
+   }
+  ],
+  "rank": 301
+ },
+ {
+  "id": "P228",
+  "name": "오정석",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "경성대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 95.0,
+  "best": 54,
+  "picked_rate": 22.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 3.2
+   },
+   {
+    "team": "LG",
+    "pct": 3.0
+   }
+  ],
+  "rank": 302
+ },
+ {
+  "id": "P491",
+  "name": "조병현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "유원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 95.0,
+  "best": 71,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.1
+   },
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 303
+ },
+ {
+  "id": "P322",
+  "name": "서연우",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 95.0,
+  "best": 95,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 304
+ },
+ {
+  "id": "P421",
+  "name": "유지성",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울문화예술대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 95.0,
+  "best": 95,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 305
+ },
+ {
+  "id": "P042",
+  "name": "김지민",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "성남고",
+  "type": "HS",
+  "talent": 63.6,
+  "conf": "mid",
+  "avg": 95.1,
+  "best": 37,
+  "picked_rate": 30.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 4.4
+   },
+   {
+    "team": "삼성",
+    "pct": 4.2
+   }
+  ],
+  "rank": 306
+ },
+ {
+  "id": "P474",
+  "name": "이은빈",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "우석대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 95.1,
+  "best": 65,
+  "picked_rate": 4.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.1
+   },
+   {
+    "team": "SSG",
+    "pct": 0.8
+   }
+  ],
+  "rank": 307
+ },
+ {
+  "id": "P149",
+  "name": "김서현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 70,
+  "conf": "mid",
+  "avg": 95.2,
+  "best": 25,
+  "picked_rate": 29.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 5.4
+   },
+   {
+    "team": "NC",
+    "pct": 5.0
+   }
+  ],
+  "rank": 308
+ },
+ {
+  "id": "P468",
+  "name": "이한준",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 95.2,
+  "best": 72,
+  "picked_rate": 4.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.6
+   },
+   {
+    "team": "kt",
+    "pct": 0.5
+   }
+  ],
+  "rank": 309
+ },
+ {
+  "id": "P437",
+  "name": "송준언",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 95.3,
+  "best": 54,
+  "picked_rate": 10.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.4
+   },
+   {
+    "team": "롯데",
+    "pct": 1.4
+   }
+  ],
+  "rank": 310
+ },
+ {
+  "id": "P400",
+  "name": "김종우",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "성균관대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 95.3,
+  "best": 50,
+  "picked_rate": 11.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.2
+   },
+   {
+    "team": "NC",
+    "pct": 1.9
+   }
+  ],
+  "rank": 311
+ },
+ {
+  "id": "P495",
+  "name": "김지호",
+  "pos": "외야수",
+  "tb": "우투좌타",
+  "school": "전주기전대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 95.4,
+  "best": 52,
+  "picked_rate": 4.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 1.0
+   },
+   {
+    "team": "두산",
+    "pct": 0.8
+   }
+  ],
+  "rank": 312
+ },
+ {
+  "id": "P374",
+  "name": "김도현",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 95.4,
+  "best": 68,
+  "picked_rate": 3.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 1.1
+   },
+   {
+    "team": "SSG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 313
+ },
+ {
+  "id": "P116",
+  "name": "김재범",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "장충고",
+  "type": "HS",
+  "talent": 57.2,
+  "conf": "mid",
+  "avg": 95.4,
+  "best": 70,
+  "picked_rate": 5.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 1.2
+   },
+   {
+    "team": "키움",
+    "pct": 0.9
+   }
+  ],
+  "rank": 314
+ },
+ {
+  "id": "P440",
+  "name": "이찬형",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 95.4,
+  "best": 66,
+  "picked_rate": 3.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.6
+   },
+   {
+    "team": "LG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 315
+ },
+ {
+  "id": "P500",
+  "name": "김도윤",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "중앙대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 95.4,
+  "best": 83,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.2
+   },
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 316
+ },
+ {
+  "id": "P171",
+  "name": "나정엽",
+  "pos": "내야수",
+  "tb": "-",
+  "school": "조선이공대(중퇴) - 화성 코리요",
+  "type": "INDY",
+  "talent": 63,
+  "conf": "low",
+  "avg": 95.5,
+  "best": 60,
+  "picked_rate": 5.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.9
+   },
+   {
+    "team": "SSG",
+    "pct": 0.8
+   }
+  ],
+  "rank": 317
+ },
+ {
+  "id": "P227",
+  "name": "김성우",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경성대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 95.6,
+  "best": 77,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.1
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 318
+ },
+ {
+  "id": "P472",
+  "name": "김형진",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "우석대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 95.7,
+  "best": 40,
+  "picked_rate": 21.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 3.0
+   },
+   {
+    "team": "한화",
+    "pct": 2.8
+   }
+  ],
+  "rank": 319
+ },
+ {
+  "id": "P534",
+  "name": "최선우",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "충북보건과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 95.7,
+  "best": 71,
+  "picked_rate": 5.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.9
+   },
+   {
+    "team": "두산",
+    "pct": 0.8
+   }
+  ],
+  "rank": 320
+ },
+ {
+  "id": "P050",
+  "name": "김동현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울고",
+  "type": "HS",
+  "talent": 59.5,
+  "conf": "mid",
+  "avg": 95.7,
+  "best": 67,
+  "picked_rate": 1.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.2
+   },
+   {
+    "team": "두산",
+    "pct": 0.2
+   }
+  ],
+  "rank": 321
+ },
+ {
+  "id": "P047",
+  "name": "이원영",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "야탑고",
+  "type": "HS",
+  "talent": 60.4,
+  "conf": "mid",
+  "avg": 95.8,
+  "best": 70,
+  "picked_rate": 3.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.8
+   },
+   {
+    "team": "키움",
+    "pct": 0.6
+   }
+  ],
+  "rank": 322
+ },
+ {
+  "id": "P368",
+  "name": "장윤성",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "사이버한국외대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 95.8,
+  "best": 86,
+  "picked_rate": 0.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   },
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 323
+ },
+ {
+  "id": "P283",
+  "name": "김윤우",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "대덕대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 95.9,
+  "best": 69,
+  "picked_rate": 3.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.5
+   },
+   {
+    "team": "KIA",
+    "pct": 0.5
+   }
+  ],
+  "rank": 324
+ },
+ {
+  "id": "P538",
+  "name": "김찬용",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "한일장신대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 96.0,
+  "best": 51,
+  "picked_rate": 20.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 3.9
+   },
+   {
+    "team": "롯데",
+    "pct": 2.8
+   }
+  ],
+  "rank": 325
+ },
+ {
+  "id": "P113",
+  "name": "김용휘",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "휘문고",
+  "type": "HS",
+  "talent": 58.5,
+  "conf": "mid",
+  "avg": 96.0,
+  "best": 62,
+  "picked_rate": 14.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 2.8
+   },
+   {
+    "team": "한화",
+    "pct": 2.2
+   }
+  ],
+  "rank": 326
+ },
+ {
+  "id": "P292",
+  "name": "전원진",
+  "pos": "외야수",
+  "tb": "좌투좌타",
+  "school": "대덕대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.0,
+  "best": 72,
+  "picked_rate": 3.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.6
+   },
+   {
+    "team": "NC",
+    "pct": 0.4
+   }
+  ],
+  "rank": 327
+ },
+ {
+  "id": "P465",
+  "name": "이재원",
+  "pos": "투수",
+  "tb": "-",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.0,
+  "best": 85,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.2
+   },
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 328
+ },
+ {
+  "id": "P514",
+  "name": "구본승",
+  "pos": "투수",
+  "tb": "-",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.0,
+  "best": 96,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 329
+ },
+ {
+  "id": "P362",
+  "name": "오현서",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동의대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 96.0,
+  "best": 72,
+  "picked_rate": 0.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.4
+   },
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 330
+ },
+ {
+  "id": "P299",
+  "name": "김세윤",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동강대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.0,
+  "best": 96,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 331
+ },
+ {
+  "id": "P327",
+  "name": "주태준",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.0,
+  "best": 96,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 332
+ },
+ {
+  "id": "P258",
+  "name": "김윤석",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.0,
+  "best": 96,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 333
+ },
+ {
+  "id": "P184",
+  "name": "김관우",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.0,
+  "best": 96,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 334
+ },
+ {
+  "id": "P267",
+  "name": "허진원",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.1,
+  "best": 70,
+  "picked_rate": 3.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.8
+   },
+   {
+    "team": "LG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 335
+ },
+ {
+  "id": "P446",
+  "name": "황제영",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.3,
+  "best": 55,
+  "picked_rate": 7.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 1.2
+   },
+   {
+    "team": "한화",
+    "pct": 1.1
+   }
+  ],
+  "rank": 336
+ },
+ {
+  "id": "P486",
+  "name": "김준현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "유원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 96.3,
+  "best": 82,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.1
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 337
+ },
+ {
+  "id": "P041",
+  "name": "김진호",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "성남고",
+  "type": "HS",
+  "talent": 62.2,
+  "conf": "mid",
+  "avg": 96.4,
+  "best": 37,
+  "picked_rate": 14.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 2.1
+   },
+   {
+    "team": "LG",
+    "pct": 1.8
+   }
+  ],
+  "rank": 338
+ },
+ {
+  "id": "P115",
+  "name": "김지환",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "부산고",
+  "type": "HS",
+  "talent": 57.6,
+  "conf": "mid",
+  "avg": 96.4,
+  "best": 75,
+  "picked_rate": 7.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 1.4
+   },
+   {
+    "team": "한화",
+    "pct": 1.2
+   }
+  ],
+  "rank": 339
+ },
+ {
+  "id": "P360",
+  "name": "하해성",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 96.4,
+  "best": 39,
+  "picked_rate": 3.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.6
+   },
+   {
+    "team": "SSG",
+    "pct": 0.5
+   }
+  ],
+  "rank": 340
+ },
+ {
+  "id": "P170",
+  "name": "박희수",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "안산 웨이브스",
+  "type": "INDY",
+  "talent": 65,
+  "conf": "low",
+  "avg": 96.4,
+  "best": 81,
+  "picked_rate": 1.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.2
+   },
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 341
+ },
+ {
+  "id": "P232",
+  "name": "한유찬",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경성대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 96.5,
+  "best": 71,
+  "picked_rate": 0.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.2
+   },
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 342
+ },
+ {
+  "id": "P449",
+  "name": "이효민",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "영남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 96.7,
+  "best": 93,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.1
+   },
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 343
+ },
+ {
+  "id": "P200",
+  "name": "김정겸",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 96.7,
+  "best": 77,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.1
+   },
+   {
+    "team": "롯데",
+    "pct": 0.1
+   }
+  ],
+  "rank": 344
+ },
+ {
+  "id": "P278",
+  "name": "이기욱",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "단국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 96.8,
+  "best": 55,
+  "picked_rate": 22.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 3.5
+   },
+   {
+    "team": "한화",
+    "pct": 3.2
+   }
+  ],
+  "rank": 345
+ },
+ {
+  "id": "P151",
+  "name": "신은규",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 69,
+  "conf": "mid",
+  "avg": 96.8,
+  "best": 36,
+  "picked_rate": 13.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 2.9
+   },
+   {
+    "team": "kt",
+    "pct": 2.5
+   }
+  ],
+  "rank": 346
+ },
+ {
+  "id": "P043",
+  "name": "봉승현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "성남고",
+  "type": "HS",
+  "talent": 61.6,
+  "conf": "mid",
+  "avg": 96.9,
+  "best": 54,
+  "picked_rate": 7.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 1.4
+   },
+   {
+    "team": "키움",
+    "pct": 1.1
+   }
+  ],
+  "rank": 347
+ },
+ {
+  "id": "P265",
+  "name": "정승구",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 97.1,
+  "best": 52,
+  "picked_rate": 4.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.6
+   },
+   {
+    "team": "kt",
+    "pct": 0.6
+   }
+  ],
+  "rank": 348
+ },
+ {
+  "id": "P340",
+  "name": "송승엽",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "동원대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 97.1,
+  "best": 68,
+  "picked_rate": 1.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.2
+   },
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 349
+ },
+ {
+  "id": "P048",
+  "name": "노호성",
+  "pos": "투수",
+  "tb": "우투좌타",
+  "school": "상원고",
+  "type": "HS",
+  "talent": 60.1,
+  "conf": "mid",
+  "avg": 97.3,
+  "best": 35,
+  "picked_rate": 3.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.8
+   },
+   {
+    "team": "롯데",
+    "pct": 0.5
+   }
+  ],
+  "rank": 350
+ },
+ {
+  "id": "P195",
+  "name": "조민환",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 97.3,
+  "best": 74,
+  "picked_rate": 1.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.2
+   },
+   {
+    "team": "삼성",
+    "pct": 0.2
+   }
+  ],
+  "rank": 351
+ },
+ {
+  "id": "P153",
+  "name": "류건우",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "단국대",
+  "type": "COL",
+  "talent": 68,
+  "conf": "mid",
+  "avg": 97.3,
+  "best": 70,
+  "picked_rate": 6.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 1.4
+   },
+   {
+    "team": "LG",
+    "pct": 1.4
+   }
+  ],
+  "rank": 352
+ },
+ {
+  "id": "P533",
+  "name": "김민재",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "충북보건과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 97.4,
+  "best": 70,
+  "picked_rate": 8.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 1.1
+   },
+   {
+    "team": "KIA",
+    "pct": 1.1
+   }
+  ],
+  "rank": 353
+ },
+ {
+  "id": "P455",
+  "name": "김서후",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 97.4,
+  "best": 65,
+  "picked_rate": 4.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.6
+   },
+   {
+    "team": "한화",
+    "pct": 0.6
+   }
+  ],
+  "rank": 354
+ },
+ {
+  "id": "P351",
+  "name": "양우석",
+  "pos": "외야수",
+  "tb": "우투우타",
+  "school": "부산과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 97.4,
+  "best": 77,
+  "picked_rate": 2.9,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.5
+   },
+   {
+    "team": "두산",
+    "pct": 0.4
+   }
+  ],
+  "rank": 355
+ },
+ {
+  "id": "P438",
+  "name": "이재환",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 97.4,
+  "best": 72,
+  "picked_rate": 1.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.2
+   },
+   {
+    "team": "한화",
+    "pct": 0.2
+   }
+  ],
+  "rank": 356
+ },
+ {
+  "id": "P397",
+  "name": "김유안",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 97.5,
+  "best": 95,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   },
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 357
+ },
+ {
+  "id": "P386",
+  "name": "이헌영",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 97.6,
+  "best": 56,
+  "picked_rate": 7.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.6
+   },
+   {
+    "team": "LG",
+    "pct": 1.2
+   }
+  ],
+  "rank": 358
+ },
+ {
+  "id": "P264",
+  "name": "전성현",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 97.7,
+  "best": 65,
+  "picked_rate": 8.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.9
+   },
+   {
+    "team": "롯데",
+    "pct": 1.2
+   }
+  ],
+  "rank": 359
+ },
+ {
+  "id": "P505",
+  "name": "조국",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "중앙대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 97.8,
+  "best": 52,
+  "picked_rate": 22.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 4.0
+   },
+   {
+    "team": "한화",
+    "pct": 3.1
+   }
+  ],
+  "rank": 360
+ },
+ {
+  "id": "P122",
+  "name": "최창빈",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "부경고",
+  "type": "HS",
+  "talent": 54.5,
+  "conf": "mid",
+  "avg": 97.8,
+  "best": 87,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.2
+   },
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 361
+ },
+ {
+  "id": "P245",
+  "name": "홍은성",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "고려대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 98.0,
+  "best": 84,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.2
+   },
+   {
+    "team": "롯데",
+    "pct": 0.1
+   }
+  ],
+  "rank": 362
+ },
+ {
+  "id": "P412",
+  "name": "안동현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "송원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 98.0,
+  "best": 89,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.2
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 363
+ },
+ {
+  "id": "P167",
+  "name": "최병용",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "미국 독립리그",
+  "type": "OVERSEAS",
+  "talent": 66,
+  "conf": "low",
+  "avg": 98.1,
+  "best": 81,
+  "picked_rate": 2.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.5
+   },
+   {
+    "team": "NC",
+    "pct": 0.4
+   }
+  ],
+  "rank": 364
+ },
+ {
+  "id": "P209",
+  "name": "김동호",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "경민대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 98.2,
+  "best": 66,
+  "picked_rate": 7.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 1.1
+   },
+   {
+    "team": "LG",
+    "pct": 0.9
+   }
+  ],
+  "rank": 365
+ },
+ {
+  "id": "P415",
+  "name": "서태웅",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "신안산대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 98.2,
+  "best": 60,
+  "picked_rate": 1.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.4
+   },
+   {
+    "team": "kt",
+    "pct": 0.2
+   }
+  ],
+  "rank": 366
+ },
+ {
+  "id": "P045",
+  "name": "차정호",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "창원공고",
+  "type": "HS",
+  "talent": 61.0,
+  "conf": "mid",
+  "avg": 98.2,
+  "best": 64,
+  "picked_rate": 3.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.8
+   },
+   {
+    "team": "키움",
+    "pct": 0.5
+   }
+  ],
+  "rank": 367
+ },
+ {
+  "id": "P459",
+  "name": "박민서",
+  "pos": "포수",
+  "tb": "우투좌타",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 98.3,
+  "best": 75,
+  "picked_rate": 8.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 1.5
+   },
+   {
+    "team": "삼성",
+    "pct": 1.5
+   }
+  ],
+  "rank": 368
+ },
+ {
+  "id": "P303",
+  "name": "이지현",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "동강대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 98.3,
+  "best": 52,
+  "picked_rate": 6.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 1.2
+   },
+   {
+    "team": "한화",
+    "pct": 1.1
+   }
+  ],
+  "rank": 369
+ },
+ {
+  "id": "P333",
+  "name": "정재현",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "동아대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 98.3,
+  "best": 91,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   },
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 370
+ },
+ {
+  "id": "P345",
+  "name": "홍승엽",
+  "pos": "포수",
+  "tb": "우투좌타",
+  "school": "동원대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 98.4,
+  "best": 64,
+  "picked_rate": 8.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 1.6
+   },
+   {
+    "team": "KIA",
+    "pct": 1.0
+   }
+  ],
+  "rank": 371
+ },
+ {
+  "id": "P466",
+  "name": "이준호",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 98.9,
+  "best": 76,
+  "picked_rate": 1.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.4
+   },
+   {
+    "team": "한화",
+    "pct": 0.2
+   }
+  ],
+  "rank": 372
+ },
+ {
+  "id": "P424",
+  "name": "강현수",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "수성대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 99.0,
+  "best": 64,
+  "picked_rate": 8.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 1.5
+   },
+   {
+    "team": "한화",
+    "pct": 1.4
+   }
+  ],
+  "rank": 373
+ },
+ {
+  "id": "P284",
+  "name": "김지웅",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "대덕대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 99.0,
+  "best": 60,
+  "picked_rate": 9.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 1.5
+   },
+   {
+    "team": "NC",
+    "pct": 1.5
+   }
+  ],
+  "rank": 374
+ },
+ {
+  "id": "P518",
+  "name": "박민서",
+  "pos": "투수",
+  "tb": "-",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 99.0,
+  "best": 99,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 375
+ },
+ {
+  "id": "P268",
+  "name": "홍우주",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 99.0,
+  "best": 71,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   },
+   {
+    "team": "두산",
+    "pct": 0.1
+   }
+  ],
+  "rank": 376
+ },
+ {
+  "id": "P255",
+  "name": "김범서",
+  "pos": "내야수",
+  "tb": "우투양타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 99.0,
+  "best": 81,
+  "picked_rate": 1.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.2
+   },
+   {
+    "team": "삼성",
+    "pct": 0.2
+   }
+  ],
+  "rank": 377
+ },
+ {
+  "id": "P196",
+  "name": "최원준",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 99.0,
+  "best": 98,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.1
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 378
+ },
+ {
+  "id": "P521",
+  "name": "유민수",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 99.0,
+  "best": 99,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 379
+ },
+ {
+  "id": "P055",
+  "name": "박현민",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "덕수고",
+  "type": "HS",
+  "talent": 58.0,
+  "conf": "mid",
+  "avg": 99.1,
+  "best": 81,
+  "picked_rate": 4.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 1.1
+   },
+   {
+    "team": "LG",
+    "pct": 0.8
+   }
+  ],
+  "rank": 380
+ },
+ {
+  "id": "P169",
+  "name": "이대겸",
+  "pos": "투수",
+  "tb": "우투",
+  "school": "단국대(중퇴) - 성남 맥파이스",
+  "type": "INDY",
+  "talent": 66,
+  "conf": "low",
+  "avg": 99.1,
+  "best": 71,
+  "picked_rate": 2.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.5
+   },
+   {
+    "team": "KIA",
+    "pct": 0.2
+   }
+  ],
+  "rank": 381
+ },
+ {
+  "id": "P187",
+  "name": "김현우",
+  "pos": "포수",
+  "tb": "우투우타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 99.3,
+  "best": 73,
+  "picked_rate": 8.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 1.5
+   },
+   {
+    "team": "NC",
+    "pct": 1.2
+   }
+  ],
+  "rank": 382
+ },
+ {
+  "id": "P418",
+  "name": "조건형",
+  "pos": "내야수",
+  "tb": "우투우타",
+  "school": "신안산대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 99.3,
+  "best": 92,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.1
+   },
+   {
+    "team": "두산",
+    "pct": 0.1
+   }
+  ],
+  "rank": 383
+ },
+ {
+  "id": "P051",
+  "name": "김준호",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울고",
+  "type": "HS",
+  "talent": 59.2,
+  "conf": "mid",
+  "avg": 99.5,
+  "best": 89,
+  "picked_rate": 1.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.4
+   },
+   {
+    "team": "NC",
+    "pct": 0.2
+   }
+  ],
+  "rank": 384
+ },
+ {
+  "id": "P154",
+  "name": "강민구",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "연세대",
+  "type": "COL",
+  "talent": 65,
+  "conf": "mid",
+  "avg": 99.8,
+  "best": 77,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.2
+   },
+   {
+    "team": "kt",
+    "pct": 0.2
+   }
+  ],
+  "rank": 385
+ },
+ {
+  "id": "P480",
+  "name": "오준영",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "원광대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 100.0,
+  "best": 100,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.2
+   }
+  ],
+  "rank": 386
+ },
+ {
+  "id": "P262",
+  "name": "이경민",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "김포대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 100.0,
+  "best": 100,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 387
+ },
+ {
+  "id": "P452",
+  "name": "홍영훈",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "영남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 100.0,
+  "best": 100,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 388
+ },
+ {
+  "id": "P217",
+  "name": "주영민",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "경민대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 100.0,
+  "best": 100,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 389
+ },
+ {
+  "id": "P541",
+  "name": "주재홍",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "한일장신대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 100.0,
+  "best": 90,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.1
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 390
+ },
+ {
+  "id": "P311",
+  "name": "김우혁",
+  "pos": "내야수",
+  "tb": "좌투좌타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 101.0,
+  "best": 85,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.4
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 391
+ },
+ {
+  "id": "P496",
+  "name": "박서준",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "전주기전대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 101.0,
+  "best": 101,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 392
+ },
+ {
+  "id": "P369",
+  "name": "전창헌",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "사이버한국외대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 101.0,
+  "best": 101,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 393
+ },
+ {
+  "id": "P473",
+  "name": "박지원",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "우석대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 101.0,
+  "best": 94,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.1
+   },
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 394
+ },
+ {
+  "id": "P419",
+  "name": "강재우",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "서울문화예술대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 101.0,
+  "best": 101,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 395
+ },
+ {
+  "id": "P221",
+  "name": "권현민",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "건국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 101.3,
+  "best": 94,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.2
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 396
+ },
+ {
+  "id": "P289",
+  "name": "서주영",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "대덕대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 101.5,
+  "best": 95,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.1
+   },
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 397
+ },
+ {
+  "id": "P507",
+  "name": "김도현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "인하대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 101.7,
+  "best": 91,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.2
+   },
+   {
+    "team": "키움",
+    "pct": 0.1
+   }
+  ],
+  "rank": 398
+ },
+ {
+  "id": "P235",
+  "name": "배주환",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "계명대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 101.7,
+  "best": 96,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.2
+   },
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 399
+ },
+ {
+  "id": "P182",
+  "name": "강윤호",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 102.0,
+  "best": 102,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.1
+   }
+  ],
+  "rank": 400
+ },
+ {
+  "id": "P297",
+  "name": "조승모",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 102.0,
+  "best": 102,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "두산",
+    "pct": 0.1
+   }
+  ],
+  "rank": 401
+ },
+ {
+  "id": "P053",
+  "name": "김민찬",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "강릉고",
+  "type": "HS",
+  "talent": 58.6,
+  "conf": "mid",
+  "avg": 102.4,
+  "best": 92,
+  "picked_rate": 1.0,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.2
+   },
+   {
+    "team": "삼성",
+    "pct": 0.2
+   }
+  ],
+  "rank": 402
+ },
+ {
+  "id": "P448",
+  "name": "이예준",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "영남대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 103.0,
+  "best": 103,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 403
+ },
+ {
+  "id": "P212",
+  "name": "마건영",
+  "pos": "투수",
+  "tb": "-",
+  "school": "경민대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 103.0,
+  "best": 103,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 404
+ },
+ {
+  "id": "P326",
+  "name": "정진우",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 104.0,
+  "best": 104,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.1
+   }
+  ],
+  "rank": 405
+ },
+ {
+  "id": "P075",
+  "name": "박찬희",
+  "pos": "투수",
+  "tb": "좌투우타",
+  "school": "유신고",
+  "type": "HS",
+  "talent": 57.9,
+  "conf": "mid",
+  "avg": 104.0,
+  "best": 104,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.1
+   }
+  ],
+  "rank": 406
+ },
+ {
+  "id": "P052",
+  "name": "박의진",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "강릉고",
+  "type": "HS",
+  "talent": 58.9,
+  "conf": "mid",
+  "avg": 104.2,
+  "best": 100,
+  "picked_rate": 1.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "롯데",
+    "pct": 0.4
+   },
+   {
+    "team": "LG",
+    "pct": 0.2
+   }
+  ],
+  "rank": 407
+ },
+ {
+  "id": "P536",
+  "name": "이한결",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "한국골프과학기술대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 104.3,
+  "best": 100,
+  "picked_rate": 0.4,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.1
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 408
+ },
+ {
+  "id": "P081",
+  "name": "조성철",
+  "pos": "내야수",
+  "tb": "우투",
+  "school": "라온고",
+  "type": "HS",
+  "talent": 50.2,
+  "conf": "mid",
+  "avg": 104.5,
+  "best": 97,
+  "picked_rate": 0.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.2
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 409
+ },
+ {
+  "id": "P367",
+  "name": "김도연",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "사이버한국외대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 105.0,
+  "best": 105,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 410
+ },
+ {
+  "id": "P522",
+  "name": "이서찬",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "제주관광대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 105.0,
+  "best": 105,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 411
+ },
+ {
+  "id": "P238",
+  "name": "최규현",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "계명대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 105.0,
+  "best": 103,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.1
+   },
+   {
+    "team": "KIA",
+    "pct": 0.1
+   }
+  ],
+  "rank": 412
+ },
+ {
+  "id": "P241",
+  "name": "김동환",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "고려대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 105.0,
+  "best": 105,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 413
+ },
+ {
+  "id": "P310",
+  "name": "김예중",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동원과학기술대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 105.0,
+  "best": 105,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   }
+  ],
+  "rank": 414
+ },
+ {
+  "id": "P062",
+  "name": "이진관",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "광주동성고",
+  "type": "HS",
+  "talent": 58.3,
+  "conf": "mid",
+  "avg": 105.2,
+  "best": 96,
+  "picked_rate": 0.5,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   },
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 415
+ },
+ {
+  "id": "P191",
+  "name": "원상윤",
+  "pos": "내야수",
+  "tb": "우투좌타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 105.3,
+  "best": 99,
+  "picked_rate": 0.8,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.2
+   },
+   {
+    "team": "LG",
+    "pct": 0.2
+   }
+  ],
+  "rank": 416
+ },
+ {
+  "id": "P293",
+  "name": "서정민",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 106.0,
+  "best": 106,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 417
+ },
+ {
+  "id": "P302",
+  "name": "이도형",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동강대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 106.0,
+  "best": 106,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 418
+ },
+ {
+  "id": "P198",
+  "name": "황태웅",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "강릉영동대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 106.0,
+  "best": 106,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 419
+ },
+ {
+  "id": "P464",
+  "name": "이의태",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 106.0,
+  "best": 106,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 420
+ },
+ {
+  "id": "P493",
+  "name": "김영준",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "전주기전대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 106.0,
+  "best": 106,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 421
+ },
+ {
+  "id": "P414",
+  "name": "박성빈",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "신안산대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 106.0,
+  "best": 105,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "kt",
+    "pct": 0.1
+   },
+   {
+    "team": "삼성",
+    "pct": 0.1
+   }
+  ],
+  "rank": 422
+ },
+ {
+  "id": "P407",
+  "name": "강승보",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "송원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 106.0,
+  "best": 106,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 423
+ },
+ {
+  "id": "P214",
+  "name": "신서영",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "경민대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 106.0,
+  "best": 106,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 424
+ },
+ {
+  "id": "P463",
+  "name": "안민기",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "용인예술과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 106.0,
+  "best": 106,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "NC",
+    "pct": 0.1
+   }
+  ],
+  "rank": 425
+ },
+ {
+  "id": "P489",
+  "name": "오광민",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "유원대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 106.2,
+  "best": 99,
+  "picked_rate": 0.6,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.2
+   },
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 426
+ },
+ {
+  "id": "P443",
+  "name": "조성용",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 106.5,
+  "best": 103,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "KIA",
+    "pct": 0.1
+   },
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 427
+ },
+ {
+  "id": "P483",
+  "name": "장동호",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "원광대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 107.0,
+  "best": 107,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "삼성",
+    "pct": 0.1
+   }
+  ],
+  "rank": 428
+ },
+ {
+  "id": "P057",
+  "name": "이세민",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "배명고",
+  "type": "HS",
+  "talent": 57.4,
+  "conf": "mid",
+  "avg": 108.0,
+  "best": 108,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 429
+ },
+ {
+  "id": "P477",
+  "name": "김건우",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "원광대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 108.0,
+  "best": 108,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 430
+ },
+ {
+  "id": "P529",
+  "name": "이정우",
+  "pos": "투수",
+  "tb": "좌투좌타",
+  "school": "한양대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 108.5,
+  "best": 108,
+  "picked_rate": 0.2,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "SSG",
+    "pct": 0.1
+   },
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 431
+ },
+ {
+  "id": "P058",
+  "name": "박채환",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "우신고",
+  "type": "HS",
+  "talent": 57.1,
+  "conf": "mid",
+  "avg": 109.0,
+  "best": 109,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 432
+ },
+ {
+  "id": "P392",
+  "name": "최주영",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동의과학대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 109.0,
+  "best": 109,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "한화",
+    "pct": 0.1
+   }
+  ],
+  "rank": 433
+ },
+ {
+  "id": "P070",
+  "name": "최재원",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "제물포고",
+  "type": "HS",
+  "talent": 56.1,
+  "conf": "mid",
+  "avg": 110.0,
+  "best": 110,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 434
+ },
+ {
+  "id": "P295",
+  "name": "이예학",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "동국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 110.0,
+  "best": 110,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 435
+ },
+ {
+  "id": "P430",
+  "name": "임현",
+  "pos": "투수",
+  "tb": "-",
+  "school": "수성대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 110.0,
+  "best": 110,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 436
+ },
+ {
+  "id": "P444",
+  "name": "최연재",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "여주대",
+  "type": "COL",
+  "talent": 55.0,
+  "conf": "low",
+  "avg": 110.0,
+  "best": 110,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 437
+ },
+ {
+  "id": "P223",
+  "name": "김세연",
+  "pos": "투수",
+  "tb": "우투우타",
+  "school": "건국대",
+  "type": "COL",
+  "talent": 57.0,
+  "conf": "low",
+  "avg": 110.0,
+  "best": 110,
+  "picked_rate": 0.1,
+  "r1_rate": 0.0,
+  "top_teams": [
+   {
+    "team": "LG",
+    "pct": 0.1
+   }
+  ],
+  "rank": 438
+ }
+]

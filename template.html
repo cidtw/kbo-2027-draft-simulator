@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2027 KBO 신인 드래프트 시뮬레이터</title>
+<style>
+:root{
+  color-scheme: dark;
+  --surface-0:#111110; --surface-1:#1a1a19; --surface-2:#232322; --surface-3:#2e2e2c;
+  --line:#3a3a37; --line-soft:#2b2b29;
+  --text-1:#ffffff; --text-2:#c3c2b7; --text-3:#8b8a80;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#9085e9; --s7:#e66767;
+  --good:#199e70; --warn:#c98500; --crit:#e66767;
+  --radius:10px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface-0);color:var(--text-1);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Noto Sans KR",Pretendard,sans-serif;
+  font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--s1)}
+.wrap{max-width:1500px;margin:0 auto;padding:20px 18px 60px}
+header{border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:16px}
+h1{font-size:20px;margin:0 0 4px;letter-spacing:-.01em}
+.sub{color:var(--text-3);font-size:12.5px}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;
+  border:1px solid var(--line);color:var(--text-2);background:var(--surface-2);margin-left:6px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;margin:14px 0 18px}
+.tab{padding:7px 14px;border-radius:8px;background:transparent;border:1px solid var(--line-soft);
+  color:var(--text-2);cursor:pointer;font-size:13px;font-family:inherit}
+.tab:hover{background:var(--surface-2);color:var(--text-1)}
+.tab.on{background:var(--surface-3);color:var(--text-1);border-color:var(--line)}
+.panel{display:none} .panel.on{display:block}
+.card{background:var(--surface-1);border:1px solid var(--line-soft);border-radius:var(--radius);padding:14px 16px;margin-bottom:14px}
+.card h2{font-size:14px;margin:0 0 10px;color:var(--text-1);font-weight:600}
+.card h3{font-size:12px;margin:14px 0 6px;color:var(--text-3);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+button.act{background:var(--s1);color:#fff;border:0;border-radius:8px;padding:8px 16px;cursor:pointer;
+  font-size:13px;font-weight:600;font-family:inherit}
+button.act:hover{filter:brightness(1.1)}
+button.act.ghost{background:var(--surface-3);color:var(--text-1)}
+button.act:disabled{opacity:.4;cursor:not-allowed}
+input,select{background:var(--surface-2);border:1px solid var(--line);color:var(--text-1);
+  border-radius:7px;padding:7px 9px;font-size:13px;font-family:inherit}
+label.f{font-size:12px;color:var(--text-3);display:flex;flex-direction:column;gap:4px}
+table{border-collapse:separate;border-spacing:0;width:100%;font-size:12.5px}
+th,td{border-bottom:1px solid var(--line-soft);padding:7px 8px;text-align:left;vertical-align:top}
+th{color:var(--text-3);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.05em;
+  position:sticky;top:0;background:var(--surface-1);z-index:2}
+.scroll{overflow:auto;max-height:74vh;border:1px solid var(--line-soft);border-radius:var(--radius);background:var(--surface-1)}
+/* 드래프트 결과 표 */
+table.grid td,table.grid th{text-align:center;font-size:12px;padding:6px 5px}
+table.grid td{border-right:1px solid var(--line-soft)}
+table.grid .rd{font-weight:700;color:var(--text-3);background:var(--surface-2);position:sticky;left:0;z-index:1}
+table.grid .nm{font-weight:600;color:var(--text-1);display:block}
+table.grid .sc{color:var(--text-3);font-size:10.5px;display:block;margin-top:1px}
+table.grid tr:hover td{background:var(--surface-2)}
+table.grid td.mine{background:rgba(57,135,229,.14)}
+table.grid td.traded{box-shadow:inset 0 0 0 1px var(--s4)}
+.tradeMark{color:var(--s4);font-size:10px;display:block}
+/* 포지션 배지 — 색 + 텍스트 라벨 동시 사용 */
+.pos{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;color:var(--text-2)}
+.dot{width:8px;height:8px;border-radius:2px;flex:none}
+.p-P{background:var(--s1)} .p-C{background:var(--s2)} .p-IF{background:var(--s3)} .p-OF{background:var(--s4)}
+/* 스탯 타일 */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:8px}
+.tile{background:var(--surface-2);border:1px solid var(--line-soft);border-radius:8px;padding:10px 12px}
+.tile .k{font-size:10.5px;color:var(--text-3);text-transform:uppercase;letter-spacing:.05em}
+.tile .v{font-size:20px;font-weight:700;margin-top:3px;letter-spacing:-.02em}
+.tile .n{font-size:11px;color:var(--text-3);margin-top:1px}
+/* 미터 (단일 hue 시퀀셜) */
+.meter{display:grid;grid-template-columns:56px 1fr 42px;gap:8px;align-items:center;margin:5px 0}
+.meter .lb{font-size:11.5px;color:var(--text-2)}
+.meter .track{height:7px;background:var(--surface-3);border-radius:4px;overflow:hidden}
+.meter .fill{height:100%;border-radius:4px;background:var(--s1)}
+.meter .vl{font-size:11px;color:var(--text-3);text-align:right;font-variant-numeric:tabular-nums}
+.teamgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.tsel{background:var(--surface-2);border:1px solid var(--line-soft);border-radius:10px;padding:12px;cursor:pointer;text-align:left;
+  color:var(--text-1);font-family:inherit}
+.tsel:hover{border-color:var(--s1);background:var(--surface-3)}
+.tsel .tn{font-weight:700;font-size:14px} .tsel .to{font-size:11.5px;color:var(--text-3);margin-top:2px}
+.tsel .tr{font-size:11.5px;color:var(--text-2);margin-top:7px;line-height:1.45}
+.split{display:grid;grid-template-columns:300px 1fr;gap:14px;align-items:start}
+@media(max-width:900px){.split{grid-template-columns:1fr}}
+.log{max-height:260px;overflow:auto;font-size:12px}
+.log div{padding:3px 0;border-bottom:1px solid var(--line-soft);color:var(--text-2)}
+.log b{color:var(--text-1)}
+.log .me{color:var(--s1);font-weight:600}
+.onclock{background:linear-gradient(90deg,rgba(57,135,229,.20),transparent);
+  border:1px solid var(--s1);border-radius:8px;padding:10px 12px;margin-bottom:10px}
+.onclock .t{font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:.06em}
+.onclock .b{font-size:16px;font-weight:700;margin-top:2px}
+.pick{background:var(--s1);border:0;color:#fff;border-radius:6px;padding:4px 10px;font-size:11.5px;cursor:pointer;font-weight:600;font-family:inherit}
+.pick:hover{filter:brightness(1.12)}
+.note{font-size:11.5px;color:var(--text-3);line-height:1.6}
+.tag{font-size:10px;padding:1px 6px;border-radius:4px;border:1px solid var(--line);color:var(--text-3);margin-left:4px;white-space:nowrap}
+.tag.hi{border-color:var(--good);color:var(--good)} .tag.lo{border-color:var(--line);color:var(--text-3)}
+.tag.col{border-color:var(--s6);color:var(--s6)}
+ul.rules{margin:6px 0 0 0;padding-left:18px;color:var(--text-2);font-size:12.5px;line-height:1.75}
+.warnbox{border-left:2px solid var(--warn);padding:8px 12px;background:var(--surface-2);border-radius:0 8px 8px 0;font-size:12.5px;color:var(--text-2)}
+textarea{width:100%;height:180px;background:var(--surface-2);color:var(--text-2);border:1px solid var(--line);
+  border-radius:8px;padding:10px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11.5px;color:var(--text-2);margin:8px 0 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>2027 KBO 신인 드래프트 분석 &amp; 예상 지명 시뮬레이터
+    <span class="badge">v0.6 · 교차검증 반영</span></h1>
+  <div class="sub">드래프트 시행 2026년 9월 21일 · Z-shape 11라운드 × 10구단 = 110픽 ·
+    선수풀 <b id="poolN">0</b>명 · <span id="dday"></span></div>
+</header>
+
+<div class="tabs">
+  <button class="tab on" data-p="p1">① 전체 시뮬레이션</button>
+  <button class="tab" data-p="p2">② 스카우터 모드</button>
+  <button class="tab" data-p="p3">③ 선수 보드</button>
+  <button class="tab" data-p="p4">④ 구단 프로파일</button>
+  <button class="tab" data-p="p5">⑤ 규칙 · 데이터 출처</button>
+</div>
+
+<!-- ─────────────── 전체 시뮬레이션 ─────────────── -->
+<section class="panel on" id="p1">
+  <div class="card">
+    <div class="row">
+      <label class="f">시드<input id="seed" type="number" value="2027" style="width:100px"></label>
+      <label class="f">랜덤성(돌발 픽)
+        <select id="noise"><option value="0.6">낮음 — 컨센서스대로</option>
+          <option value="1" selected>보통</option>
+          <option value="1.5">높음 — 이변 다발</option></select></label>
+      <label class="f">팀 니즈 반영도
+        <select id="needsc"><option value="8">약함 (BPA 위주)</option>
+          <option value="14" selected>보통</option>
+          <option value="22">강함 (니즈 위주)</option></select></label>
+      <button class="act" id="runSim" style="align-self:flex-end">시뮬레이션 실행</button>
+      <button class="act ghost" id="reroll" style="align-self:flex-end">시드 랜덤 재실행</button>
+      <button class="act ghost" id="mdBtn" style="align-self:flex-end">마크다운 복사</button>
+    </div>
+    <div class="legend" id="legend"></div>
+  </div>
+  <div class="card" style="padding:0;overflow:auto"><div id="gridWrap"></div></div>
+  <div class="card"><h2>구단별 지명 요약</h2><div id="summary"></div></div>
+  <div class="card" id="mdCard" style="display:none"><h2>마크다운 출력</h2><textarea id="mdOut"></textarea></div>
+</section>
+
+<!-- ─────────────── 스카우터 모드 ─────────────── -->
+<section class="panel" id="p2">
+  <div class="card" id="teamPick">
+    <h2>스카우터로 참여할 구단을 선택하세요</h2>
+    <div class="note" style="margin-bottom:10px">선택한 구단의 지명 순번이 오면 직접 선수를 고릅니다.
+      나머지 9개 구단은 사전 조사된 성향·뎁스 데이터 기반으로 자동 지명합니다.</div>
+    <div class="teamgrid" id="teamGrid"></div>
+  </div>
+
+  <div id="room" style="display:none">
+    <div class="split">
+      <div>
+        <div class="card">
+          <h2 id="myTeamName"></h2>
+          <div class="tiles" style="margin-bottom:10px" id="myTiles"></div>
+          <h3>뎁스 니즈 (남은 수요)</h3>
+          <div id="myNeeds"></div>
+          <h3>지명 현황</h3>
+          <div id="myPicks" class="note">-</div>
+          <div style="margin-top:10px" class="row">
+            <button class="act ghost" id="quitRoom">구단 다시 선택</button>
+          </div>
+        </div>
+        <div class="card"><h2>지명 로그</h2><div class="log" id="log"></div></div>
+      </div>
+      <div>
+        <div class="onclock" id="clock"></div>
+        <div class="card" id="boardCard">
+          <div class="row" style="margin-bottom:10px">
+            <label class="f">포지션<select id="fPos"><option value="">전체</option>
+              <option value="P">투수</option><option value="C">포수</option>
+              <option value="IF">내야수</option><option value="OF">외야수</option></select></label>
+            <label class="f">유형<select id="fType"><option value="">전체</option>
+              <option value="HS">고졸</option><option value="COL">대졸</option>
+              <option value="OVERSEAS">해외복귀</option><option value="INDY">독립/특수</option></select></label>
+            <label class="f">검색<input id="fQ" placeholder="이름 / 학교"></label>
+            <button class="act ghost" id="autoRest" style="align-self:flex-end">남은 라운드 자동 진행</button>
+          </div>
+          <div id="gradWarn"></div>
+          <div class="scroll" style="max-height:52vh"><table id="boardTbl"></table></div>
+        </div>
+        <div class="card" id="resultCard" style="display:none;padding:0;overflow:auto"><div id="gridWrap2"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────── 선수 보드 ─────────────── -->
+<section class="panel" id="p3">
+  <div class="card">
+    <div class="row">
+      <label class="f">포지션<select id="bPos"><option value="">전체</option>
+        <option value="P">투수</option><option value="C">포수</option>
+        <option value="IF">내야수</option><option value="OF">외야수</option></select></label>
+      <label class="f">유형<select id="bType"><option value="">전체</option>
+        <option value="HS">고졸</option><option value="COL">대졸</option>
+        <option value="OVERSEAS">해외복귀</option><option value="INDY">독립/특수</option></select></label>
+      <label class="f">투타<select id="bTB"><option value="">전체</option>
+        <option value="우투">우투</option><option value="좌투">좌투</option>
+        <option value="사이드암">사이드암</option>
+        <option value="우타">우타</option><option value="좌타">좌타</option><option value="양타">양타</option></select></label>
+      <label class="f">데이터 신뢰도<select id="bConf"><option value="">전체</option>
+        <option value="high">high</option><option value="mid">mid</option><option value="low">low</option></select></label>
+      <label class="f">검색<input id="bQ" placeholder="이름 / 학교"></label>
+    </div>
+    <div class="row" style="margin-top:8px">
+      <label class="f" style="flex-direction:row;align-items:center;gap:6px">
+        <input type="checkbox" id="bPerf" style="width:auto"> 2026 대회 성적 반영 선수만</label>
+    </div>
+    <div class="note" style="margin-top:8px">
+      <b>talent = 스카우팅 × (1−α) + 성적 × α</b> — α는 실측 시즌 스탯·전국대회 개인상 확보 시 0.45,
+      단일 경기·구속 등 부분 기록 0.30, 현장 언급만 있으면 0.15.
+      2026 황금사자기·청룡기·대통령배 기록이 반영된 선수는 <span class="tag hi">성적반영</span> 표시가 붙습니다
+      (봉황대기는 8월 진행 중이라 미반영). 나머지는 공개 정성 평가 기반 <b>추정치</b>입니다.</div>
+  </div>
+  <div class="scroll"><table id="poolTbl"></table></div>
+</section>
+
+<!-- ─────────────── 구단 프로파일 ─────────────── -->
+<section class="panel" id="p4"><div id="profiles"></div></section>
+
+<!-- ─────────────── 규칙 / 출처 ─────────────── -->
+<section class="panel" id="p5">
+  <div class="card"><h2>현행 드래프트 제도 (2027 기준)</h2>
+    <ul class="rules">
+      <li><b>전면 드래프트</b> — 2023년부터 1차 지명(지역 연고 우선) 폐지</li>
+      <li><b>Z-shape 11라운드</b> — 매 라운드 1→10 동일 순서, 전년도 최종순위 역순</li>
+      <li><b>대졸 의무지명</b> — 대졸(졸업예정) 최소 1명. 위반 시 제재금 + 익년 1R 지명권 박탈. 대학 얼리 신청자는 미포함</li>
+      <li><b>대학 얼리 드래프트</b> — 3·4년제 2학년 수료자. 고졸 지명 거부 후 진학자는 대상 아님</li>
+      <li><b>지명권 효력 2년</b> — 고졸 지명 거부 후 3·4년제 진학 시 졸업시즌에 재신청 필요 (2년제 전문대는 기존 지명권으로 입단 가능)</li>
+      <li><b>참가신청자만 지명 대상</b> — 2023 드래프트부터 졸업예정자 자동 대상이 폐지되어 <u>신청서를 낸 선수만</u> 지명 가능.
+        따라서 KBSA 고교 3학년 1,113명이 곧 지명풀은 아님. 2027 일반 지원 접수는 2026-07-01~08-22이며 현재 진행 중</li>
+      <li><b>참가 신청 의무</b> — 지명행사 30일 전까지. 징계·부상 이력 기재, 학교폭력 서약서, 생활기록부 제출</li>
+      <li><b>야구규약 107조</b> — 국내 중학교 이상 이수 후 KBO 미경유 해외 진출 선수는 최종 해외 계약 종료 후 2년 경과 시 신청 가능. 지명되어도 계약금 없음 + 1년차 최저연봉(3,000만원)</li>
+      <li><b>107조 예외</b> — 드래프트 지명 대상이었으나 미지명 후 해외 진출한 선수는 유예 없이 복귀 및 계약금 정상 수령 가능</li>
+      <li><b>해외 아마 출신</b> — 국내·해외 프로 이력 없는 한국 국적 고교 이상 해외 아마 선수는 반드시 드래프트를 거쳐야 입단 가능</li>
+    </ul>
+  </div>
+  <div class="card"><h2>2027 지명 순서 및 지명권 변동</h2><div id="orderList"></div></div>
+  <div class="card"><h2>KBSA 공식 선수풀 현황 (2026 시즌 전수 조회)</h2>
+    <div class="split" style="grid-template-columns:1fr 1fr">
+      <div><h3>고교부 (18세 이하부) — 104팀 3,488명</h3>
+        <div class="tiles">
+          <div class="tile"><div class="k">3학년 (2027 대상)</div><div class="v">1,113</div><div class="n">지명 대상</div></div>
+          <div class="tile"><div class="k">투수</div><div class="v">539</div></div>
+          <div class="tile"><div class="k">포수</div><div class="v">91</div></div>
+          <div class="tile"><div class="k">내야수</div><div class="v">237</div></div>
+          <div class="tile"><div class="k">외야수</div><div class="v">246</div></div>
+        </div></div>
+      <div><h3>대학부 — 50팀 1,481명</h3>
+        <div class="tiles">
+          <div class="tile"><div class="k">4학년</div><div class="v">162</div><div class="n">4년제 졸업예정</div></div>
+          <div class="tile"><div class="k">2학년</div><div class="v">430</div><div class="n">2년제 졸업예정 + 얼리 후보</div></div>
+          <div class="tile"><div class="k">3학년</div><div class="v">188</div></div>
+          <div class="tile"><div class="k">1학년</div><div class="v">701</div></div>
+        </div></div>
+    </div>
+    <div class="note" style="margin-top:10px">
+      본 시뮬레이터의 선수풀은 이 공식 명단과 대조하여 <b>138명의 학년·포지션·신장·체중·투타를 확정</b>했고,
+      포지션 오기 5건을 정정했으며, 소속 미상이던 주목 투수 5명을 추가했습니다.
+      나머지 미평가 선수는 스카우팅 정보가 없어 보드에 포함하지 않았습니다.</div>
+    <div class="warnbox" style="margin-top:10px">
+      <b>고교 3학년 1,113명 ≠ 지명풀.</b> 2023 드래프트부터 졸업예정자 자동 대상이 폐지되어 <b>참가신청자만</b> 지명 대상이 됩니다.
+      2027 일반 지원 접수는 2026-08-22 마감이라 현재 확정 명단이 존재하지 않습니다.
+      엔진에는 신청자 게이트(<code>apply_applicants.py</code>)를 미리 넣어뒀고,
+      명단이 공표되면 <code>data/applicants.txt</code>에 「이름,학교」를 채우는 것만으로
+      KBSA 명단과 교집합을 취해 지명풀이 자동 확정됩니다. 현재는 전원 <b>applied=미확인</b> 상태입니다.</div>
+  </div>
+  <div class="card"><h2>데이터 출처</h2>
+    <ul class="rules">
+      <li>선수풀 — 나무위키 「2027 KBO 신인 드래프트」 후보군 (편집 개방형 문서, 교차검증 필요)</li>
+      <li>상위 후보 신상·오퍼 규모 — 머니투데이/스타뉴스/서울신문 등 2026년 5~6월 보도</li>
+      <li>일정·참가자격 — 국제뉴스 「2027 야구 신인 유망주 모인다」, KBO 공지</li>
+      <li>구단 지명 성향 — 2026 신인 드래프트 1~11R 실제 지명 결과 (국제뉴스 지명결과 기사)</li>
+      <li><b>2026 고교 전국대회 기록</b> — 제80회 황금사자기(5/16, 충암고 우승) 개인상 전 부문·결승 기록, 제81회 청룡기(7/12, 세광고 우승) MVP 기록, 대통령배(7/30, 덕수고 우승) MVP 3관왕 — 머니투데이·일간스포츠·뉴스1·DWB뉴스</li>
+      <li><b>투수 스카우팅</b> — 스포츠Q 「사진가 이영학의 고교야구 메모리 — 2027 신인 드래프트 판도 가늠할 봉황대기(투수편)」</li>
+      <li><b>아마추어 공식 명단</b> — 대한야구소프트볼협회 <a href="https://www.korea-baseball.com/info/team/team_list?kind_cd=31" target="_blank">고교부</a> ·
+        <a href="https://www.korea-baseball.com/info/team/team_list?kind_cd=41" target="_blank">대학부</a> 팀·선수정보 (2026 시즌 전수 조회)</li>
+      <li><b>구단 선수풀</b> — 나무위키 &lt;구단명&gt;/선수단 등록선수·육성선수 명단 (2026-08 기준).
+        ※KBO 공식 선수검색(koreabaseball.com/Player/Search.aspx)은 robots.txt에서 자동 조회를 차단하고 있어 사용하지 못했습니다</li>
+      <li>야구규약 107조 — <a href="https://6ptotvmi5753.edge.naverncp.com/KBO_FILE/ebook/pdf/2026_%EC%95%BC%EA%B5%AC%EA%B7%9C%EC%95%BD.pdf" target="_blank">2026 야구규약 PDF</a></li>
+    </ul>
+  </div>
+  <div class="card"><h2>한계 및 주의</h2>
+    <div class="warnbox">
+      ① 재능치·팀 니즈 수치는 공개 정보를 계량화한 <b>추정치</b>이며 구단 공식 평가가 아닙니다.<br>
+      ② 2026 대회 성적이 반영된 선수는 <b>37명</b>, KBSA 공식 명단으로 학년·피지컬이 확정된 선수는 <b>138명</b>입니다. KBSA 3학년 1,113명 중 스카우팅 정보가 없는 나머지는 보드에 포함하지 않았습니다.
+         KBSA 기록실 수준의 전 선수 시즌 스탯은 공개 웹에서 일괄 확보되지 않았습니다.<br>
+      ③ <b>봉황대기(8월 진행 중)는 미반영</b>입니다. 대회 종료 후 재산정이 필요합니다.
+         트라이아웃(2026-09-01) 결과, 부상, 추가 참가신청, MLB 계약 이탈도 미반영입니다.<br>
+      ③-1 <b>구단 선수풀 데이터는 위키 파싱 편차가 큽니다.</b> 등록선수 총원은 팀 간 절대 비교에 쓰지 않았고,
+         need 보정에는 등록 포수 인원(누락 가능성 낮음)과 추출이 온전한 팀의 육성선수 포지션 분포만 사용했습니다.<br>
+      ③-2 <b>KBSA 미등재 30명</b>(서원준·설재민·민주홍·강인규·김민훈·전나엘 등)은 소속교 3학년 등록 인원이 비정상적으로 적어(충암고 7명, 덕수고 6명) 협회 등록 누락 가능성이 있습니다. 2학년으로 단정할 수 없어 풀에 유지하되 <span class="tag" style="border-color:var(--warn);color:var(--warn)">미등재</span>로 표시했습니다 — 학년 확인 필요.<br>
+      ④ 얼리 드래프트 신청자 명단이 공개되면 별도 유형(COL_EARLY)으로 반영해야 합니다.<br>
+      ⑤ 지명 순서는 2025 시즌 최종순위 역순 확정값이며, 삼성 3R 지명권은 NC가 행사합니다.
+    </div>
+  </div>
+</section>
+</div>
+
+<script>
+const DATA = __DATA__;
+const PLAYERS = DATA.players, TEAMS = DATA.teams, TRADES = DATA.trades, RULES = DATA.rules;
+const POSKR = {P:"투수",C:"포수",IF:"내야수",OF:"외야수"};
+const TYPEKR = {HS:"고졸",COL:"대졸",COL_EARLY:"대학 얼리",OVERSEAS:"해외복귀",INDY:"독립/특수"};
+const ORDER = TEAMS.slice().sort((a,b)=>a.pick_order-b.pick_order).map(t=>t.id);
+const TMAP = Object.fromEntries(TEAMS.map(t=>[t.id,t]));
+const ELIG = PLAYERS.filter(p=>p.eligible);
+const PMAP = Object.fromEntries(PLAYERS.map(p=>[p.id,p]));
+
+/* ── 시드 RNG ── */
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);
+  t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function makeRng(seed){const r=mulberry32(seed);let sp=null;
+  return {u:r,g:function(){if(sp!==null){const v=sp;sp=null;return v}
+    let u=0,v=0;while(u===0)u=r();while(v===0)v=r();
+    const m=Math.sqrt(-2*Math.log(u));sp=m*Math.sin(2*Math.PI*v);return m*Math.cos(2*Math.PI*v)}}}
+
+function schoolLabel(p){
+  if(p.type==="OVERSEAS") return [p.hs,p.univ,p.foreign].filter(Boolean).join(" - ");
+  if(p.type==="INDY") return [p.univ,p.indy].filter(Boolean).join(" - ");
+  if(p.type==="COL_EARLY") return (p.hs||"?")+" - "+p.univ+" (얼리)";
+  if(p.type==="COL") return (p.hs?p.hs+" - ":"")+p.univ;
+  return p.hs||"?";
+}
+function tbLabel(p){return p.tb||"-"}
+function tbCell(p){ // 공식 확정값은 그대로, 투구 손만 아는 경우는 흐리게
+  if(!p.tb) return '<span style="color:var(--text-3)">-</span>';
+  return p.tb_conf==="official" ? esc(p.tb)
+       : `<span style="color:var(--text-3)">${esc(p.tb)}<span class="tag lo">타격미상</span></span>`;
+}
+const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+/* ── 드래프트 엔진 (engine.py 포팅) ── */
+class Draft{
+  constructor(seed,{needScale=14,noise=1}={}){
+    this.seedRef=seed>>>0; this.rng=makeRng(seed>>>0); this.needScale=needScale; this.noise=noise;
+    this.rounds=RULES.rounds; this.slots=RULES.teams;
+    this.trades={}; TRADES.forEach(t=>this.trades[t.round+"-"+t.slot]=t);
+    this.board={}; ELIG.forEach(p=>this.board[p.id]={...p});
+    this.view={}; ORDER.forEach(tid=>{const v={};
+      for(const id in this.board){const p=this.board[id]; v[id]=p.talent+this.rng.g()*p.var*0.35}
+      this.view[tid]=v});
+    this.available=new Set(Object.keys(this.board));
+    this.rosters={}; ORDER.forEach(t=>this.rosters[t]=[]);
+    this.dyn={}; ORDER.forEach(t=>this.dyn[t]={...TMAP[t].weight});
+    this.picks=[]; this.cursor=0;
+  }
+  owner(rnd,slot){const tr=this.trades[rnd+"-"+slot];return[tr?tr.to:ORDER[slot-1],tr||null]}
+  hasGrad(tid){return this.rosters[tid].some(id=>this.board[id].college_grad)}
+  score(tid,pid,rnd){
+    const t=TMAP[tid],p=this.board[pid];
+    let s=this.view[tid][pid];
+    const nw=this.needScale*(0.35+0.09*(rnd-1))*(1.3-t.bpa);
+    s+=nw*(this.dyn[tid][p.pos]-0.5)*2;
+    if(p.type==="HS") s+=(t.hs_pref-0.5)*8;
+    else if(p.type==="COL"||p.type==="COL_EARLY") s+=(0.5-t.hs_pref)*8;
+    else s+=(0.5-t.hs_pref)*8-4;
+    s+=(t.risk-0.5)*p.var*0.6;
+    if(p.college_grad&&!this.hasGrad(tid)){const left=this.rounds-rnd; if(left<=3) s+=(4-left)*18}
+    s+=this.rng.g()*(0.6+0.30*p.var)*this.noise;
+    return s;
+  }
+  rank(tid,rnd,n){
+    let c=[...this.available];
+    if(rnd===this.rounds&&!this.hasGrad(tid)){
+      const g=c.filter(id=>this.board[id].college_grad); if(g.length)c=g}
+    const sc={}; c.forEach(id=>sc[id]=this.score(tid,id,rnd));
+    c.sort((a,b)=>sc[b]-sc[a]);
+    return n?c.slice(0,n):c;
+  }
+  pos(){const i=this.cursor;return{rnd:Math.floor(i/this.slots)+1,slot:i%this.slots+1}}
+  done(){return this.cursor>=this.rounds*this.slots}
+  commit(pid,by){
+    const {rnd,slot}=this.pos(); const [tid,tr]=this.owner(rnd,slot);
+    this.available.delete(pid); this.rosters[tid].push(pid);
+    const p=this.board[pid];
+    this.dyn[tid][p.pos]=Math.max(0.05,this.dyn[tid][p.pos]-0.16);
+    const rec={round:rnd,slot:slot,overall:this.cursor+1,team:tid,player:pid,by:by||"AI",trade:tr};
+    this.picks.push(rec); this.cursor++; return rec;
+  }
+  step(){const {rnd,slot}=this.pos();const [tid]=this.owner(rnd,slot);
+    return this.commit(this.rank(tid,rnd,1)[0],"AI")}
+  runAll(){while(!this.done())this.step();return this}
+  runUntil(userTeam){const out=[];
+    while(!this.done()){const {rnd,slot}=this.pos();const [tid]=this.owner(rnd,slot);
+      if(tid===userTeam)break; out.push(this.step())}
+    return out;}
+  validate(){
+    const e=[],w=[];
+    if(this.picks.length!==110)e.push(`총 픽 ${this.picks.length} ≠ 110`);
+    if(new Set(this.picks.map(p=>p.player)).size!==this.picks.length)e.push("중복 지명");
+    ORDER.forEach(t=>{
+      const exp=11+TRADES.filter(x=>x.to===t).length-TRADES.filter(x=>x.from===t).length;
+      if(this.rosters[t].length!==exp)e.push(`${t} 지명 ${this.rosters[t].length} ≠ ${exp}`);
+      if(!this.hasGrad(t))e.push(`${t} 대졸 의무지명 위반`);
+      const pc=this.rosters[t].filter(id=>this.board[id].pos==="P").length;
+      if(pc>=10)w.push(`${t} 투수 ${pc}명 편중`);
+    });
+    return {e,w};
+  }
+}
+
+/* ── 결과 표 렌더 ── */
+function renderGrid(d,mine){
+  const g={}; d.picks.forEach(p=>{g[p.round+"-"+p.slot]=p});
+  let h='<table class="grid"><thead><tr><th style="min-width:46px">R</th>'+
+    ORDER.map(t=>`<th style="min-width:126px">${t}</th>`).join("")+'</tr></thead><tbody>';
+  for(let r=1;r<=RULES.rounds;r++){
+    h+=`<tr><td class="rd">${r}R</td>`;
+    for(let s=1;s<=10;s++){
+      const pk=g[r+"-"+s];
+      if(!pk){h+='<td class="sc">-</td>';continue}
+      const p=PMAP[pk.player];
+      const cls=[pk.team===mine?"mine":"",pk.trade?"traded":""].filter(Boolean).join(" ");
+      h+=`<td class="${cls}"><span class="nm">${esc(p.name)}</span>`+
+         `<span class="sc">${esc(schoolLabel(p))} · ${POSKR[p.pos]}${p.tb?" · "+esc(p.tb):""}</span>`+
+         (pk.trade?`<span class="tradeMark">※${pk.trade.to} 행사</span>`:"")+`</td>`;
+    }
+    h+="</tr>";
+  }
+  return h+"</tbody></table>";
+}
+function markdown(d){
+  const g={}; d.picks.forEach(p=>{g[p.round+"-"+p.slot]=p});
+  let L=["| 라운드 | "+ORDER.join(" | ")+" |","|"+":---:|".repeat(11)];
+  for(let r=1;r<=RULES.rounds;r++){
+    const row=[`**${r}R**`];
+    for(let s=1;s<=10;s++){const pk=g[r+"-"+s];
+      if(!pk){row.push("-");continue}
+      const p=PMAP[pk.player];
+      row.push(`${p.name}<br />(${schoolLabel(p)} - ${POSKR[p.pos]} · ${tbLabel(p)})`+(pk.trade?`<br />※${pk.trade.to} 행사`:""));}
+    L.push("| "+row.join(" | ")+" |");
+  }
+  return L.join("\n");
+}
+function summary(d){
+  let h='<div class="scroll" style="max-height:none"><table><thead><tr><th>구단</th><th>지명</th>'+
+    '<th>투</th><th>포</th><th>내</th><th>외</th><th>고졸</th><th>대졸</th><th>1R 지명</th></tr></thead><tbody>';
+  ORDER.forEach(t=>{
+    const ids=d.rosters[t],ps=ids.map(i=>PMAP[i]);
+    const c=k=>ps.filter(p=>p.pos===k).length;
+    const hs=ps.filter(p=>p.type==="HS").length, cg=ps.filter(p=>p.college_grad).length;
+    const one=d.picks.find(p=>p.team===t&&p.round===1);
+    h+=`<tr><td><b>${t}</b></td><td>${ids.length}</td><td>${c("P")}</td><td>${c("C")}</td>`+
+       `<td>${c("IF")}</td><td>${c("OF")}</td><td>${hs}</td>`+
+       `<td>${cg?`<span class="tag hi">${cg}</span>`:'<span class="tag" style="border-color:var(--crit);color:var(--crit)">0</span>'}</td>`+
+       `<td>${one?esc(PMAP[one.player].name):"-"}</td></tr>`;
+  });
+  return h+"</tbody></table></div>";
+}
+
+/* ── 탭 ── */
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
+  document.querySelectorAll(".panel").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); document.getElementById(b.dataset.p).classList.add("on");
+});
+
+/* ── 전체 시뮬레이션 ── */
+let lastSim=null;
+function runSim(){
+  const seed=parseInt(document.getElementById("seed").value)||2027;
+  const d=new Draft(seed,{needScale:+document.getElementById("needsc").value,
+                          noise:+document.getElementById("noise").value});
+  d.runAll(); lastSim=d;
+  document.getElementById("gridWrap").innerHTML=renderGrid(d,null);
+  const v=d.validate();
+  document.getElementById("summary").innerHTML=summary(d)+
+    `<div class="note" style="margin-top:10px">검증 — 오류: ${v.e.length?v.e.join(", "):"없음"} / 경고: ${v.w.length?v.w.join(", "):"없음"}</div>`;
+}
+document.getElementById("runSim").onclick=runSim;
+document.getElementById("reroll").onclick=()=>{
+  document.getElementById("seed").value=Math.floor(Math.random()*99999); runSim();};
+document.getElementById("mdBtn").onclick=()=>{
+  if(!lastSim)return; const c=document.getElementById("mdCard"); c.style.display="block";
+  const ta=document.getElementById("mdOut"); ta.value=markdown(lastSim); ta.select();
+  try{document.execCommand("copy")}catch(e){}
+};
+document.getElementById("legend").innerHTML=
+  Object.keys(POSKR).map(k=>`<span class="pos"><span class="dot p-${k}"></span>${POSKR[k]}</span>`).join("")+
+  `<span class="pos" style="color:var(--s4)">▣ 지명권 이관 픽</span>`;
+
+/* ── 스카우터 모드 ── */
+let sd=null,myTeam=null;
+function needMeter(lb,v){return `<div class="meter"><span class="lb">${lb}</span>`+
+  `<span class="track"><span class="fill" style="width:${Math.round(Math.min(1,v/0.9)*100)}%"></span></span>`+
+  `<span class="vl">${v.toFixed(2)}</span></div>`}
+function renderTeamGrid(){
+  document.getElementById("teamGrid").innerHTML=TEAMS.sort((a,b)=>a.pick_order-b.pick_order).map(t=>
+    `<button class="tsel" data-t="${t.id}"><div class="tn">${t.pick_order}. ${esc(t.name)}</div>`+
+    `<div class="to">2025 시즌 ${t.rank2025}위 · 1R 전체 ${t.pick_order}순위</div>`+
+    `<div class="tr">${esc(t.rationale)}</div></button>`).join("");
+  document.querySelectorAll(".tsel").forEach(b=>b.onclick=()=>startRoom(b.dataset.t));
+}
+function startRoom(tid){
+  myTeam=tid;
+  sd=new Draft(Math.floor(Math.random()*99999),{needScale:14,noise:1});
+  document.getElementById("teamPick").style.display="none";
+  document.getElementById("room").style.display="block";
+  document.getElementById("resultCard").style.display="none";
+  document.getElementById("boardCard").style.display="block";
+  document.getElementById("myTeamName").textContent=TMAP[tid].name+" 스카우트팀";
+  document.getElementById("log").innerHTML="";
+  advance();
+}
+function logPick(pk){
+  const p=PMAP[pk.player],mine=pk.team===myTeam;
+  const el=document.getElementById("log");
+  el.insertAdjacentHTML("afterbegin",
+    `<div class="${mine?"me":""}">${pk.round}R-${pk.slot} (전체 ${pk.overall}) <b>${pk.team}</b> ${esc(p.name)} `+
+    `<span style="color:var(--text-3)">${esc(schoolLabel(p))} · ${POSKR[p.pos]}${p.tb?" · "+esc(p.tb):""}</span>`+
+    (pk.trade?` <span class="tag" style="border-color:var(--s4);color:var(--s4)">이관픽</span>`:"")+`</div>`);
+}
+function advance(){
+  sd.runUntil(myTeam).forEach(logPick);
+  refreshRoom();
+}
+function refreshRoom(){
+  const t=TMAP[myTeam];
+  // 스탯 타일
+  const ids=sd.rosters[myTeam],ps=ids.map(i=>PMAP[i]);
+  const cg=ps.filter(p=>p.college_grad).length;
+  const remain=(11+TRADES.filter(x=>x.to===myTeam).length-TRADES.filter(x=>x.from===myTeam).length)-ids.length;
+  document.getElementById("myTiles").innerHTML=
+    `<div class="tile"><div class="k">지명 완료</div><div class="v">${ids.length}</div><div class="n">남은 픽 ${remain}</div></div>`+
+    `<div class="tile"><div class="k">대졸 의무</div><div class="v" style="color:${cg?"var(--good)":"var(--crit)"}">${cg?"충족":"미충족"}</div><div class="n">대졸 ${cg}명</div></div>`+
+    `<div class="tile"><div class="k">보드 잔여</div><div class="v">${sd.available.size}</div><div class="n">지명 가능</div></div>`;
+  document.getElementById("myNeeds").innerHTML=
+    ["P","C","IF","OF"].map(k=>needMeter(POSKR[k],sd.dyn[myTeam][k])).join("");
+  document.getElementById("myPicks").innerHTML= ids.length? ids.map((id,i)=>{
+    const p=PMAP[id],pk=sd.picks.find(x=>x.player===id);
+    return `<div style="padding:3px 0;border-bottom:1px solid var(--line-soft)">
+      <b>${pk.round}R</b> ${esc(p.name)} <span class="pos"><span class="dot p-${p.pos}"></span>${POSKR[p.pos]}</span>
+      <span style="color:var(--text-3)">· ${p.tb?esc(p.tb)+" · ":""}${esc(schoolLabel(p))}</span>
+      ${p.college_grad?'<span class="tag col">대졸</span>':""}</div>`}).join("") : "-";
+
+  const clock=document.getElementById("clock");
+  if(sd.done()){
+    clock.innerHTML=`<div class="t">드래프트 종료</div><div class="b">전체 110픽 완료 — 결과를 확인하세요</div>`;
+    document.getElementById("boardCard").style.display="none";
+    const rc=document.getElementById("resultCard"); rc.style.display="block";
+    document.getElementById("gridWrap2").innerHTML=gradeCard(sd,myTeam)+renderGrid(sd,myTeam);
+    return;
+  }
+  const {rnd,slot}=sd.pos();
+  clock.innerHTML=`<div class="t">ON THE CLOCK — ${rnd}라운드 ${slot}순번 (전체 ${sd.cursor+1}번)</div>`+
+    `<div class="b">${TMAP[myTeam].name} 지명 차례</div>`;
+  // 대졸 의무 경고
+  const left=RULES.rounds-rnd, gradsLeft=[...sd.available].filter(i=>PMAP[i].college_grad).length;
+  document.getElementById("gradWarn").innerHTML =
+    (!sd.hasGrad(myTeam)&&left<=3)
+      ? `<div class="warnbox" style="margin-bottom:10px">⚠ 대졸 의무지명 미충족. 남은 라운드 ${left+1}회, 보드 잔여 대졸 ${gradsLeft}명. 11R에는 자동으로 대졸만 선택 가능합니다.</div>`:"";
+  renderBoard();
+}
+/* 드래프트 종료 후 내 팀 평가 — AI가 대신 뽑았을 경우와 비교 */
+function gradeCard(d,tid){
+  const ids=d.rosters[tid],ps=ids.map(i=>PMAP[i]);
+  const talent=ps.reduce((a,p)=>a+p.talent,0);
+  // 동일 시드로 전 구단 AI 진행한 기준선
+  const base=new Draft(d.seedRef,{needScale:d.needScale,noise:d.noise}).runAll();
+  const bt=base.rosters[tid].reduce((a,i)=>a+PMAP[i].talent,0);
+  const w=TMAP[tid].weight;
+  const fill=["P","C","IF","OF"].map(k=>{
+    const got=ps.filter(p=>p.pos===k).length;
+    const target=Math.max(1,Math.round(11*w[k]/Object.values(w).reduce((a,b)=>a+b,0)));
+    return {k,got,target};
+  });
+  const miss=fill.filter(f=>f.got<f.target).map(f=>POSKR[f.k]);
+  const diff=talent-bt;
+  const grade=diff>=40?"A":diff>=15?"B":diff>=-15?"C":diff>=-45?"D":"F";
+  return `<div style="padding:14px 16px;border-bottom:1px solid var(--line-soft)">
+    <h2 style="font-size:14px;margin:0 0 10px">드래프트 평가 — ${esc(TMAP[tid].name)}</h2>
+    <div class="tiles">
+      <div class="tile"><div class="k">종합 등급</div><div class="v">${grade}</div><div class="n">AI 기준선 대비</div></div>
+      <div class="tile"><div class="k">재능 합계</div><div class="v">${Math.round(talent)}</div><div class="n">기준선 ${Math.round(bt)} (${diff>=0?"+":""}${Math.round(diff)})</div></div>
+      <div class="tile"><div class="k">대졸 의무</div><div class="v" style="color:${d.hasGrad(tid)?"var(--good)":"var(--crit)"}">${d.hasGrad(tid)?"충족":"위반"}</div><div class="n">${ps.filter(p=>p.college_grad).length}명</div></div>
+      <div class="tile"><div class="k">포지션 배분</div><div class="v" style="font-size:14px">${fill.map(f=>POSKR[f.k][0]+f.got).join(" ")}</div><div class="n">${miss.length?"부족: "+miss.join(", "):"균형 확보"}</div></div>
+    </div>
+    <div class="note" style="margin-top:8px">기준선 = 동일 조건에서 10개 구단 전부를 AI가 지명했을 때 이 구단이 확보했을 재능 합계.</div>
+  </div>`;
+}
+function renderBoard(){
+  const fp=document.getElementById("fPos").value,ft=document.getElementById("fType").value,
+        q=document.getElementById("fQ").value.trim();
+  const {rnd}=sd.pos();
+  let ids=sd.rank(myTeam,rnd);          // 우리 구단 관점 정렬
+  const forced=(rnd===RULES.rounds&&!sd.hasGrad(myTeam));
+  let list=ids.map(i=>PMAP[i]).filter(p=>(!fp||p.pos===fp)&&(!ft||p.type===ft)&&
+    (!q||p.name.includes(q)||(schoolLabel(p)||"").includes(q))).slice(0,80);
+  let h='<thead><tr><th>#</th><th>선수</th><th>포지션</th><th>투타</th><th>출신</th><th>유형</th><th>평가</th><th></th></tr></thead><tbody>';
+  list.forEach((p,i)=>{
+    h+=`<tr><td style="color:var(--text-3)">${i+1}</td>`+
+       `<td><b>${esc(p.name)}</b>${p.note?`<div class="note" style="max-width:320px">${esc(p.note)}</div>`:""}</td>`+
+       `<td><span class="pos"><span class="dot p-${p.pos}"></span>${POSKR[p.pos]}</span></td>`+
+       `<td>${tbCell(p)}</td>`+
+       `<td>${esc(schoolLabel(p))}</td>`+
+       `<td>${TYPEKR[p.type]}${p.college_grad?'<span class="tag col">대졸카운트</span>':""}</td>`+
+       `<td>${p.talent}<span class="tag ${p.conf==="high"?"hi":"lo"}">${p.conf}</span></td>`+
+       `<td><button class="pick" data-id="${p.id}">지명</button></td></tr>`;
+  });
+  if(forced&&!list.length)h+='<tr><td colspan="7" class="note">대졸 의무지명 강제 구간입니다. 필터를 해제하세요.</td></tr>';
+  document.getElementById("boardTbl").innerHTML=h+"</tbody>";
+  document.querySelectorAll(".pick").forEach(b=>b.onclick=()=>{
+    logPick(sd.commit(b.dataset.id,"USER")); advance();});
+}
+["fPos","fType"].forEach(id=>document.getElementById(id).onchange=renderBoard);
+document.getElementById("fQ").oninput=renderBoard;
+document.getElementById("autoRest").onclick=()=>{
+  while(!sd.done()){const {rnd,slot}=sd.pos();const [tid]=sd.owner(rnd,slot);
+    logPick(tid===myTeam?sd.commit(sd.rank(myTeam,rnd,1)[0],"AUTO"):sd.step());}
+  refreshRoom();};
+document.getElementById("quitRoom").onclick=()=>{
+  document.getElementById("room").style.display="none";
+  document.getElementById("teamPick").style.display="block";};
+
+/* ── 선수 보드 탭 ── */
+function renderPool(){
+  const fp=document.getElementById("bPos").value,ft=document.getElementById("bType").value,
+        fc=document.getElementById("bConf").value,q=document.getElementById("bQ").value.trim(),
+        ftb=document.getElementById("bTB").value,
+        onlyPerf=document.getElementById("bPerf").checked;
+  const list=PLAYERS.filter(p=>(!fp||p.pos===fp)&&(!ft||p.type===ft)&&(!fc||p.conf===fc)&&
+    (!onlyPerf||p.perf)&&(!ftb||(p.tb||"").includes(ftb))&&(!q||p.name.includes(q)||(schoolLabel(p)||"").includes(q)))
+    .sort((a,b)=>b.talent-a.talent);
+  let h='<thead><tr><th>#</th><th>선수</th><th>포지션</th><th>투타</th><th>출신</th><th>유형</th>'+
+        '<th>talent</th><th>스카우팅</th><th>성적</th><th>신장/체중</th><th>KBSA</th><th>신뢰도</th><th>2026 기록 · 비고</th></tr></thead><tbody>';
+  list.forEach((p,i)=>{
+    const d=p.perf?+(p.talent-p.scout).toFixed(1):null;
+    const arrow=d===null?"":(d>0?`<span style="color:var(--good)">▲${d.toFixed(1)}</span>`
+      :(d<0?`<span style="color:var(--crit)">▼${Math.abs(d).toFixed(1)}</span>`:""));
+    h+=`<tr><td style="color:var(--text-3)">${i+1}</td><td><b>${esc(p.name)}</b>`+
+       (p.perf?'<span class="tag hi">성적반영</span>':"")+
+       (p.eligible?"":'<span class="tag" style="border-color:var(--crit);color:var(--crit)">대상 제외</span>')+`</td>`+
+       `<td><span class="pos"><span class="dot p-${p.pos}"></span>${POSKR[p.pos]}</span></td>`+
+       `<td>${tbCell(p)}</td>`+
+       `<td>${esc(schoolLabel(p))}</td><td>${TYPEKR[p.type]}</td>`+
+       `<td><b>${p.talent}</b> ${arrow}</td><td style="color:var(--text-3)">${p.scout}</td>`+
+       `<td>${p.perf?p.perf.score:"-"}</td>`+
+       `<td style="color:var(--text-3)">${p.ht?p.ht+"/"+p.wt:"-"}</td>`+
+       `<td>${p.kbsa&&p.kbsa!=="absent"?`<span class="tag hi">${p.kbsa.grade}학년 확인</span>`
+            :(p.kbsa==="absent"?'<span class="tag" style="border-color:var(--warn);color:var(--warn)">미등재</span>':"-")}</td>`+
+       `<td><span class="tag ${p.conf==="high"?"hi":"lo"}">${p.conf}</span></td>`+
+       `<td class="note" style="max-width:420px">`+
+       (p.perf&&p.perf.record?`<div style="color:var(--text-2)">${esc(p.perf.record)}</div>`:"")+
+       (p.note?`<div>${esc(p.note)}</div>`:"")+
+       (p.elig_note?`<div><b>${esc(p.elig_note)}</b></div>`:"")+
+       (p.perf&&p.perf.src?`<div style="color:var(--text-3);margin-top:2px">출처: ${esc(p.perf.src)}</div>`:"")+
+       `</td></tr>`;
+  });
+  document.getElementById("poolTbl").innerHTML=h+"</tbody>";
+}
+["bPos","bType","bConf","bTB","bPerf"].forEach(id=>document.getElementById(id).onchange=renderPool);
+document.getElementById("bQ").oninput=renderPool;
+
+/* ── 구단 프로파일 ── */
+document.getElementById("profiles").innerHTML=TEAMS.sort((a,b)=>a.pick_order-b.pick_order).map(t=>{
+  const d26=t.d26_counts,tot=Object.values(d26).reduce((a,b)=>a+b,0);
+  return `<div class="card"><h2>${t.pick_order}. ${esc(t.name)} <span class="badge">2025 ${t.rank2025}위</span></h2>
+  <div class="note" style="margin-bottom:10px">${esc(t.rationale)}</div>
+  <div class="split" style="grid-template-columns:1fr 1fr">
+    <div><h3>유효 지명 가중치</h3>${["P","C","IF","OF"].map(k=>needMeter(POSKR[k],t.weight[k])).join("")}</div>
+    <div><h3>2026 드래프트 실제 지명 (${tot}명)</h3>
+      <div class="tiles">${["P","C","IF","OF"].map(k=>
+        `<div class="tile"><div class="k">${POSKR[k]}</div><div class="v">${d26[k]}</div>
+         <div class="n">성향 ${t.tendency[k].toFixed(2)}</div></div>`).join("")}</div>
+      <div class="note" style="margin-top:8px">고졸 선호 ${t.hs_pref} · 리스크 감수 ${t.risk} · BPA 성향 ${t.bpa}</div>
+    </div></div>
+  ${rosterBlock(t)}</div>`}).join("");
+
+function rosterBlock(t){
+  const r=t.roster; if(!r) return "";
+  const cell=(o,comp)=>o? ["P","C","IF","OF"].map(k=>
+      `<div class="tile"><div class="k">${POSKR[k]}</div><div class="v">${o[k]===null?"—":o[k]}</div></div>`).join("")
+    : `<div class="note">추출 불가</div>`;
+  const flag=c=>({high:'<span class="tag hi">추출 온전</span>',mid:'<span class="tag">일부 누락</span>',
+                  low:'<span class="tag" style="border-color:var(--crit);color:var(--crit)">불완전</span>',
+                  none:'<span class="tag lo">미확보</span>'}[c]||"");
+  return `<h3 style="margin-top:16px">구단 선수풀 (나무위키 선수단, 2026-08 기준)</h3>
+    <div class="split" style="grid-template-columns:1fr 1fr">
+      <div><div class="note" style="margin-bottom:5px">등록선수 ${flag(r.reg_completeness)}</div>
+        <div class="tiles">${cell(r.registered)}</div></div>
+      <div><div class="note" style="margin-bottom:5px">육성선수 ${flag(r.dev_completeness)}</div>
+        <div class="tiles">${cell(r.development)}</div></div>
+    </div>
+    <div class="note" style="margin-top:8px">${esc(r.memo)}</div>`;
+}
+
+/* ── 지명 순서 탭 ── */
+document.getElementById("orderList").innerHTML=
+  '<table><thead><tr><th>순번</th><th>구단</th><th>2025 최종순위</th><th>비고</th></tr></thead><tbody>'+
+  TEAMS.sort((a,b)=>a.pick_order-b.pick_order).map(t=>{
+    const tr=TRADES.filter(x=>x.from===t.id||x.to===t.id).map(x=>x.note).join(" / ");
+    return `<tr><td>${t.pick_order}</td><td><b>${esc(t.name)}</b></td><td>${t.rank2025}위</td><td class="note">${esc(tr)}</td></tr>`;
+  }).join("")+"</tbody></table>";
+
+/* ── init ── */
+document.getElementById("poolN").textContent=ELIG.length;
+(function(){const d=new Date(2026,8,21),n=new Date(),diff=Math.ceil((d-n)/864e5);
+  document.getElementById("dday").textContent=diff>0?`D-${diff}`:(diff===0?"D-DAY":"종료");})();
+renderTeamGrid(); renderPool(); runSim();
+</script>
+</body>
+</html>
