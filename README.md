@@ -23,11 +23,14 @@ python3 build_teams.py        # ⑤ 구단 지명 성향/뎁스 니즈 생성
 python3 build_rosters.py      # ⑥ 등록·육성 선수풀 반영 → need 보정
 python3 apply_calibration.py  # ⑦ 교차검증 기반 보정 (학년 확정, 니즈 조정)
 python3 apply_applicants.py   # ⑧ 참가신청자 게이트 (명단 공표 후 활성화)
+python3 build_html.py         # ⑨ data/*.json → KBO_2027_draft_simulator.html 재생성
 python3 run_sim.py 800 2027   # 시뮬레이션 + 몬테카를로 보드 → out/
 python3 compare_fm.py 2027    # fmkorea 모의드래프트 교차검증
 ```
 
-HTML 재빌드는 `template.html` 의 `__DATA__` 자리에 `{players, teams, trades, rules}` JSON을 주입하면 됩니다.
+- ⑧ `apply_applicants.py` 는 `data/applicants.txt`(참가신청자 이름을 한 줄에 하나씩)를 읽습니다. 이 파일은 저장소에 없으며, 없으면 전원을 `applied=None`(미확인)으로 두고 보드에서 제외하지 않습니다.
+- ⑨ `build_html.py` 는 `template.html` 의 `__DATA__` 자리에 `{players, teams, trades, rules}` JSON(compact, `ensure_ascii=False`)을 주입합니다. `python3 build_html.py --check` 로 커밋된 HTML이 `data/` 와 일치하는지 확인할 수 있습니다.
+- 표준 라이브러리만 사용하므로 별도 의존성 설치가 필요 없습니다 (Python 3.10+ 권장).
 
 ## 시뮬레이션 로직
 
@@ -53,9 +56,13 @@ score = view[team][player]                                  # 구단별 스카�
 
 ## 검증
 
-- 파라미터 조합 × 다중 시드 무결성 테스트 (총 픽 110 / 중복 없음 / 팀별 픽 수 / 대졸 의무) — 오류 0건
+```bash
+python3 -m unittest discover -s tests -t .
+```
+
+- `tests/test_integrity.py` — 파라미터 조합 × 다중 시드 무결성 테스트 (총 픽 110 / 중복 없음 / 팀별 픽 수(트레이드 반영) / 대졸 의무 / eligible 선수만 지명 / 같은 시드 재현성) + 커밋된 HTML이 `data/` 와 일치하는지 확인
 - fmkorea 유저 모의드래프트 11R 110픽 교차검증 — `out/fmkorea_2차교차검증_11R.md`
-- HTML headless Chromium 테스트 — JS 에러 0건
+- HTML headless Chromium 테스트 — JS 에러 0건 (수동 수행, 테스트 코드는 저장소에 포함되어 있지 않음)
 
 ## 데이터 출처
 
